@@ -17,21 +17,22 @@ def main():
     reader = PdfReader(cwd_path / "1100 câu Triết học Mác Lênin.pdf")
     stack = []
     for page in reader.pages:
+        cur_answ_line = -1
         for line in page.extract_text().splitlines():
             line = line.strip()
             if line.startswith("Câu "):
-                #câu 457 749 943 không có câu hỏi
+                # Câu 457 749 943 không có câu hỏi
                 question = line.split(": ", maxsplit=1)
-                stack.append(question[1] if len(question) > 1 else "")
+                stack.append(question[1].strip() if len(question) > 1 else "")
             else:
                 if line.startswith("A. "):
-                    stack.append(line[3:])
+                    stack.append(line[3:].strip())
                 elif line.startswith("B. "):
-                    stack.append(line[3:])
+                    stack.append(line[3:].strip())
                 elif line.startswith("C. "):
-                    stack.append(line[3:])
+                    stack.append(line[3:].strip())
                 elif line.startswith("D. "):
-                    stack.append(line[3:])
+                    stack.append(line[3:].strip())
                 elif line.startswith("Đáp án: "):          
                     question = {
                         "question": stack[0],
@@ -43,7 +44,6 @@ def main():
                 else:
                     if stack:
                         stack[-1] += " " + line.strip()
-
     with open(cwd_path / "questions.json", "w", encoding="utf-8") as f:
         json.dump(questions, f, indent=4, ensure_ascii=False)
 
