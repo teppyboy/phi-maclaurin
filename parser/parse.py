@@ -15,29 +15,35 @@ def main():
     questions: list[dict] = []
     cwd_path = Path(__file__).resolve().parent
     reader = PdfReader(cwd_path / "1100 câu Triết học Mác Lênin.pdf")
-    question: dict = None
+    stack = []
     for page in reader.pages:
         for line in page.extract_text().splitlines():
+            line = line.strip()
             if line.startswith("Câu "):
-                question = {
-                    "question": line.split(": ", maxsplit=1)[1].strip(),
-                    "choices": [
-                        
-                    ],
-                    "answer": 0
-                }
+                #câu 457 749 943 không có câu hỏi
+                question = line.split(": ", maxsplit=1)
+                stack.append(question[1] if len(question) > 1 else "")
             else:
                 if line.startswith("A. "):
-                    question["choices"].append(line[3:].strip())
+                    stack.append(line[3:])
                 elif line.startswith("B. "):
-                    question["choices"].append(line[3:].strip())
+                    stack.append(line[3:])
                 elif line.startswith("C. "):
-                    question["choices"].append(line[3:].strip())
+                    stack.append(line[3:])
                 elif line.startswith("D. "):
-                    question["choices"].append(line[3:].strip())
-                elif line.startswith("Đáp án: "):
-                    question["answer"] = ord(line[8]) - ord("A")
+                    stack.append(line[3:])
+                elif line.startswith("Đáp án: "):          
+                    question = {
+                        "question": stack[0],
+                        "choices": stack[1:],
+                        "answer": ord(line[8]) - ord("A")
+                    }
                     questions.append(question)
+                    stack = []
+                else:
+                    if stack:
+                        stack[-1] += " " + line.strip()
+
     with open(cwd_path / "questions.json", "w", encoding="utf-8") as f:
         json.dump(questions, f, indent=4, ensure_ascii=False)
 
