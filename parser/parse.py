@@ -37,6 +37,8 @@ def main():
                 elif line.startswith("Đáp án: "):
                     question["answer"] = ord(line[8]) - ord("A")
                     questions.append(question)
+                elif line.strip() != "":
+                    question["question"] += f" {line}"
     with open("questions.json", "w", encoding="utf-8") as f:
         json.dump(questions, f, indent=4, ensure_ascii=False)
 
