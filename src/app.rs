@@ -262,6 +262,7 @@ impl eframe::App for TemplateApp {
                         .on_hover_text("Xem đáp án")
                         .clicked()
                     {
+                        self.my_score = 0;
                         for (i, question) in &mut self.loaded_questions.iter().enumerate() {
                             if self.my_question_choices[i].clone() as usize
                                 == question.answer as usize
