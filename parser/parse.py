@@ -1,7 +1,7 @@
 import json
 import io
 from pypdf import PdfReader
-
+from pathlib import Path
 
 def print_to_string(*args, **kwargs):
     output = io.StringIO()
@@ -13,7 +13,8 @@ def print_to_string(*args, **kwargs):
 
 def main():
     questions: list[dict] = []
-    reader = PdfReader("1100 câu Triết học Mác Lênin.pdf")
+    cwd_path = Path(__file__).resolve().parent
+    reader = PdfReader(cwd_path / "1100 câu Triết học Mác Lênin.pdf")
     question: dict = None
     for page in reader.pages:
         for line in page.extract_text().splitlines():
@@ -37,7 +38,7 @@ def main():
                 elif line.startswith("Đáp án: "):
                     question["answer"] = ord(line[8]) - ord("A")
                     questions.append(question)
-    with open("questions.json", "w", encoding="utf-8") as f:
+    with open(cwd_path / "questions.json", "w", encoding="utf-8") as f:
         json.dump(questions, f, indent=4, ensure_ascii=False)
 
 
