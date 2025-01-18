@@ -1,5 +1,4 @@
-use std::hash::{BuildHasher, Hasher, RandomState};
-
+use ezrng as random;
 use egui::epaint::text::{FontInsert, InsertFontFamily};
 
 #[derive(PartialEq, Clone, serde::Deserialize, serde::Serialize)]
@@ -162,14 +161,11 @@ impl eframe::App for TemplateApp {
                 self.my_score = 0;
                 if self.randomized_question {
                     for _ in 0..self.question_amount {
-                        let question_num = RandomState::new().build_hasher().finish()
-                            % self.all_questions.len() as u64;
+                        let question_num = random::randint(0, self.all_questions.len() as u64);
                         let mut question = self.all_questions[question_num as usize].clone();
                         if self.randomized_answers {
                             let mut choices = question.choices.clone();
-                            let swap_target: usize = (RandomState::new().build_hasher().finish()
-                                % choices.len() as u64)
-                                as usize;
+                            let swap_target: usize = random::randint(0, choices.len() as u64) as usize;
                             if swap_target != question.answer {
                                 choices.swap(question.answer, swap_target);
                                 question.answer = swap_target;
@@ -183,10 +179,7 @@ impl eframe::App for TemplateApp {
                                 .filter(|x| **x != question.answer)
                                 .collect::<Vec<&usize>>();
                             for i in others {
-                                let swap_target: usize =
-                                    (RandomState::new().build_hasher().finish()
-                                        % (choices.len() - 1) as u64)
-                                        as usize;
+                                let swap_target: usize = random::randint(0, (choices.len() - 1) as u64) as usize;
                                 if swap_target != question.answer {
                                     choices.swap(*i, swap_target);
                                 }
@@ -295,9 +288,9 @@ fn powered_by_egui_and_eframe(ui: &mut egui::Ui) {
             "eframe",
             "https://github.com/emilk/egui/tree/master/crates/eframe",
         );
-        ui.label(" and ");
+        ui.label("and");
         ui.hyperlink_to("egui", "https://github.com/emilk/egui");
-        ui.label("Powered by ");
+        ui.label("Powered by");
         ui.spacing_mut().item_spacing.x = 0.0;
     });
 }

@@ -1133,6 +1133,12 @@ dependencies = [
 ]
 
 [[package]]
+name = "ezrng"
+version = "0.1.1"
+source = "registry+https://github.com/rust-lang/crates.io-index"
+checksum = "5523862289ceb4e8845800e2ed4fca469b55138c86963c7041782f4d9a71bbfe"
+
+[[package]]
 name = "fastrand"
 version = "2.0.1"
 source = "registry+https://github.com/rust-lang/crates.io-index"
@@ -2139,6 +2145,7 @@ dependencies = [
  "eframe",
  "egui",
  "env_logger",
+ "ezrng",
  "getrandom",
  "log",
  "serde",
