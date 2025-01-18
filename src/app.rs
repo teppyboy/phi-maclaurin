@@ -16,6 +16,8 @@ enum QuestionChoice {
     Fourth = 3,
 }
 
+static QUESTIONS_STR: &str = include_str!("../parser/questions.json");
+
 /// We derive Deserialize/Serialize so we can persist app state on shutdown.
 #[derive(serde::Deserialize, serde::Serialize)]
 #[serde(default)] // if we add new fields, give them default values when deserializing old state
@@ -51,7 +53,7 @@ impl Default for TemplateApp {
             my_question_choices: vec![],
             my_score: 0,
             loaded_questions: vec![],
-            all_questions: serde_json::from_str(include_str!("../parser/questions.json")).unwrap(),
+            all_questions: serde_json::from_str(QUESTIONS_STR).unwrap(),
             show_answer: false,
             begin_quiz: false,
             label: "Hello World!".to_owned(),
@@ -122,6 +124,9 @@ impl eframe::App for TemplateApp {
                 }
 
                 egui::widgets::global_theme_preference_buttons(ui);
+                if ui.button("Xóa dữ liệu").on_hover_text("Xóa dữ liệu đã lưu trên máy của ứng dụng nếu bị bug, vì dev bị ngu k biết fix bug ở các bản trước").clicked() {
+                    *self = TemplateApp::default();
+                }
             });
         });
 
@@ -156,6 +161,8 @@ impl eframe::App for TemplateApp {
                 .on_hover_text("Bắt đầu bài kiểm tra")
                 .clicked()
             {
+                // Load all questions again because we can't trust the broken cache we made in the past
+                self.all_questions = serde_json::from_str(QUESTIONS_STR).unwrap();
                 self.loaded_questions = vec![];
                 self.my_question_choices = vec![];
                 self.my_score = 0;
