@@ -1,0 +1,1601 @@
+[
+    {
+        "question": "Giả sử kiểu dữ liệu int có kích thước 4 byte, long có kích thước 8 byte. Với biến x được định nghĩa bởi lệnh int x = 65536;  (những) lệnh nào\ncho y giá trị bằng 4294967296  ( 2^32 )  ?",
+        "choices": [
+            "a. long y = x * x;",
+            "b. long y = x * (long)x;",
+            "c. long y = long(x * x)",
+            "d. long y = long(x) * x;"
+        ],
+        "answer": [
+            1,
+            3
+        ]
+    },
+    {
+        "question": "(Những) lệnh nào tạo ra biến x với giá trị 0.6?",
+        "choices": [
+            "a. double x = (double) (3/5);",
+            "b. double x = 3/5;",
+            "c. double x = 3.0/5;",
+            "d. double x = 3/ double(5);",
+            "e. double x = (double) 3/5;",
+            "f. int x = 3/5.0;"
+        ],
+        "answer": [
+            2,
+            3,
+            4
+        ]
+    },
+    {
+        "question": "Đoạn chương trình sau cho output gì?\nint  x;\nx= -1;\nchar x= ’A ’;\ncout << x;",
+        "choices": [
+            "a. -1A",
+            "b. Lỗi biên dịch khai báo biến trùng tên x",
+            "c. A",
+            "d. -1"
+        ],
+        "answer": [
+            1
+        ]
+    },
+    {
+        "question": "(Những) biểu thức nào có giá trị bằng true?",
+        "choices": [
+            "a. 2 == sqrt(2) * sqrt(2)",
+            "b. 2.0 == sqrt(2) * sqrt(2)",
+            "c. 2 == 1.2 + 0.8"
+        ],
+        "answer": [
+            2
+        ]
+    },
+    {
+        "question": "Đoạn chương trình sau cho output là gì?\nint  x;\nx = -1;\n{\n  char x = ’A ’;\n  cout << x;\n}\ncout << x;",
+        "choices": [
+            "a. A-1",
+            "b. -1",
+            "c. A",
+            "d. Lỗi biên dịch do khai báo biến trùng tên",
+            "e. -1A"
+        ],
+        "answer": [
+            0
+        ]
+    },
+    {
+        "question": "Đoạn chương trình dưới đây cho output là gì?\nif (10 > 5); \nelse; {           \n    cout << \"10<=5\";\n};",
+        "choices": [
+            "a. 10 > 5",
+            "b. 10<=5",
+            "c. Không có output"
+        ],
+        "answer": [
+            1
+        ]
+    },
+    {
+        "question": "Dòng lệnh sau có nhiệm vụ đổi từ độ F (Fahrenheit) sang độ C (Celsius). (Những) phát biểu nào dưới đây là\nđúng?\ndouble C = (F - 32) * (5 / 9);",
+        "choices": [
+            "a. Cần đổi kiểu 32 sang double hoặc ﬂoat",
+            "b. phép chia 5/9 lúc nào cũng cho kết quả 0",
+            "c. phép chia 5/9 lúc nào cũng cho kết quả 1",
+            "d. Công thức chuyển đổi đúng, dòng lệnh không có gì sai.",
+            "e. Cần đổi kiểu 5 hoặc 9 sang double hoặc ﬂoat"
+        ],
+        "answer": [
+            1
+        ]
+    },
+    {
+        "question": "Giả sử kiểu dữ liệu int có kích thước 4 byte, long có kích thước 8 byte. Với biến x được định nghĩa bởi lệnh\nint x = 65536;  (những) lệnh nào cho y giá trị bằng 4294967296  ( 2^32 )  ?",
+        "choices": [
+            "a. long y = long(x * x)",
+            "b. long y = x * x;",
+            "c. long y = long(x) * x;",
+            "d. long y = x * (long)x;"
+        ],
+        "answer": [
+            2,
+            3
+        ]
+    },
+    {
+        "question": "Biến num có giá trị bằng bao nhiêu sau đoạn chương trình sau:\nint x = 7, y = 45, z = 63, num;\nif (x < z) num = x;\nelse num = z;\nif (y < z) num = y;\nelse num = z;",
+        "choices": [
+            "a. 45",
+            "b. 7",
+            "c. Tất cả các đáp án còn lại đều sai",
+            "d. 63"
+        ],
+        "answer": [
+            0
+        ]
+    },
+    {
+        "question": "Trong cấu trúc của vòng lặp for (khởi_tạo; điều_kiện_lặp; cập_nhật) .....",
+        "choices": [
+            "a. Có thể thiếu một trong ba biểu thức trên",
+            "b. Nhất định phải đủ cả ba biểu thức  khởi_tạo, điều_kiện_lặp và cập_nhật.",
+            "c. Có thể thiếu hai trong ba biểu thức trên",
+            "d. Có thể thiếu bất cứ biểu thức nào trong ba biểu thức trên."
+        ],
+        "answer": [
+            3
+        ]
+    },
+    {
+        "question": "Biến sum nhận giá trị gì sau đoạn chương trình dưới đây?\nint num = 5, sum = 0;\nwhile (num > 0) {\n   if (num % 2 != 0)  sum += num;\n   --num;\n}",
+        "choices": [
+            "a. 9",
+            "b. 15",
+            "c. 5",
+            "d. 0"
+        ],
+        "answer": [
+            0
+        ]
+    },
+    {
+        "question": "Output của đoạn lệnh dưới đây là gì?\nint x = -3;\nwhile (x) {\n   cout<<\"Hello, world! \";\n    x++;\n}",
+        "choices": [
+            "a. Hello, world!",
+            "b. Hello, world! Hello, world! Hello, world!",
+            "c. Hello, world! Hello, world! Hello, world! Hello, world!",
+            "d. Hello, world! Hello, world!"
+        ],
+        "answer": [
+            1
+        ]
+    },
+    {
+        "question": "Output của đoạn lệnh dưới đây là gì?\nint1 = 120;\nint2 = 30;\nif ((int1 > 100) && (int2 = 50)) int3 = int1 + int2;\nelse int3 = int1 - int2;\ncout << int1 << ' ' << int2 << ' ' << int3;",
+        "choices": [
+            "a. 120 30 90",
+            "b. 120 30 150",
+            "c. 120 50 170",
+            "d. 120 30 170"
+        ],
+        "answer": [
+            2
+        ]
+    },
+    {
+        "question": "Chọn đáp án đúng:",
+        "choices": [
+            "a. Nhãn default là bắt buộc phải có trong cấu trúc lệnh switch.",
+            "b. Các đáp án còn lại không có câu nào đúng",
+            "c.  Lệnh ngắt break là bắt buộc có trong tập lệnh mặc định của  nhãn default trong cấu trúc lệnh switch.",
+            "d. Quên lệnh ngắt break trong cấu trúc lệnh switch là mắc lỗi biên dịch."
+        ],
+        "answer": [
+            1
+        ]
+    },
+    {
+        "question": "Đoạn mã nào phía dưới có thể thay thế cho lệnh sau:\nmin = (a<b) ? a : b;",
+        "choices": [
+            "a. Không có đáp án đúng",
+            "b. if (a>b) min = a; else min = b;",
+            "c. (a>b) min = a; else min = b;",
+            "d. if (a<b) min = a; else min = b;"
+        ],
+        "answer": [
+            3
+        ]
+    },
+    {
+        "question": "Output của đoạn lệnh dưới đây là gì?\nint x = -3;\nwhile (-3) {\n          cout<<\"Hello, world! \";\n          x++;\n          if (!x)   break;\n}",
+        "choices": [
+            "a. Hello, world! Hello, world! Hello, world! Hello, world!",
+            "b. Không in gì",
+            "c. Hello, world! Hello, world! Hello, world!",
+            "d. Hello, world!",
+            "e. Hello, world! Hello, world!"
+        ],
+        "answer": [
+            2
+        ]
+    },
+    {
+        "question": "Output của đoạn lệnh dưới đây là gì?\nint x = -1;\ndo {\n     cout<<\"Hello, world! \";\n     x++;\n} while ( !x );",
+        "choices": [
+            "a. Không in gì",
+            "b. Hello, world!",
+            "c. Hello, world! Hello, world!",
+            "d. Hello, world! Hello, world! Hello, world!"
+        ],
+        "answer": [
+            2
+        ]
+    },
+    {
+        "question": "Chọn đáp án đúng cho đoạn mã lệnh sau:\n  int n = 5, k;\n  for (k = 1; k <= 50; k++) {\n      if ( (k % n)) continue;\n      cout << k << “\\t”;\n  }",
+        "choices": [
+            "a. In ra các số nguyên không chia hết cho 5 nằm trong khoảng từ 1 tới 50.",
+            "b. In ra các số nguyên chia hết cho 5 nằm trong khoảng từ 1 tới 50.",
+            "c. In ra các số nguyên nằm trong khoảng từ 1 tới 50.",
+            "d. Không in ra gì vì biểu thức logic trong phần điều kiện của lệnh if sai."
+        ],
+        "answer": [
+            1
+        ]
+    },
+    {
+        "question": "Output của đoạn lệnh dưới đây là gì?\nint x = -3;\nwhile (!x) {\n    cout<<\"Hello, world! \";\n    x++;\n}",
+        "choices": [
+            "a. Hello, world! Hello, world!",
+            "b. Hello, world!",
+            "c. Không in gì",
+            "d. Hello, world! Hello, world! Hello, world!"
+        ],
+        "answer": [
+            2
+        ]
+    },
+    {
+        "question": "int x = 10;\nfor (int x = 0; x <= 20; x ++);     \ncout << x;\nĐoạn lệnh trên cho output gì?",
+        "choices": [
+            "a. Đoạn lệnh có lỗi biên dịch",
+            "b. 21",
+            "c. 10",
+            "d. 20"
+        ],
+        "answer": [
+            2
+        ]
+    },
+    {
+        "question": "Chọn (các) phát biểu đúng",
+        "choices": [
+            "a. Trong 3 kiểu lặp: while, do- while và for thì for là linh hoạt nhất.",
+            "b. Trong 3 kiểu lặp: while, do- while và for thì do- while là linh hoạt nhất.",
+            "c. Một đoạn code bất kỳ sử dụng một trong 3 kiểu lặp while, do- while hoặc for thì nó cũng có thể được xây dựng bằng một trong hai kiểu lặp còn lại",
+            "d. Trong 3 kiểu lặp: while, do- while và for thì while là linh hoạt nhất."
+        ],
+        "answer": [
+            2
+        ]
+    },
+    {
+        "question": "Các nhãn case  trong cấu trúc switch phải là:",
+        "choices": [
+            "a. kiểu số thực",
+            "b. Biểu thức trả về kiểu ký tự",
+            "c. hằng (kiểu số nguyên hoặc kiểu ký tự), chứ không thể là biến hay biểu thức chứa biến.",
+            "d. Biểu thức trả về kiểu số nguyên"
+        ],
+        "answer": [
+            2
+        ]
+    },
+    {
+        "question": "Output của đoạn lệnh dưới đây là gì?\nint i = -3;\nfor( ; ; )  {\n      cout<<\"Hello, world! \";\n      i ++;\n      if (i == 0) break;\n}",
+        "choices": [
+            "a. Hello, world! Hello, world! Hello, world!",
+            "b. Hello, world! Hello, world!",
+            "c. Hello, world!",
+            "d. Hello, world! Hello, world! Hello, world! Hello, world!",
+            "e. Không in gì"
+        ],
+        "answer": [
+            0
+        ]
+    },
+    {
+        "question": "Output của đoạn lệnh sau là gì?\nint a = 1, b = 2;\nif (a < b) {\n   if (a > b) a = a + 1;\n   else b = b + 1;\n} \nelse a = a + b;\ncout << a * b;",
+        "choices": [
+            "a. 2",
+            "b. 6",
+            "c. 3",
+            "d. 12"
+        ],
+        "answer": [
+            2
+        ]
+    },
+    {
+        "question": "Cho đoạn chương trình sau:\nif (i == j) {\n   cout << \"A\" << endl;\n}\nelse if ((i % j) < 3) {\n  cout << \"B\" << endl;\n}\nelse if (i < (j-1)) {\n   cout << \"C\" << endl;\n}\nelse {\n   cout << \"D\" << endl;\n}\nNếu i =4 và j = 9, kết quả xuất ra màn hình sẽ là?",
+        "choices": [
+            "a. A",
+            "b. D",
+            "c. B",
+            "d. C"
+        ],
+        "answer": [
+            3
+        ]
+    },
+    {
+        "question": "Để khai báo một mảng chứa được 10 số nguyên, ta có thể dùng lệnh khai báo nào?",
+        "choices": [
+            "a. int a[10];",
+            "b. int a[11];",
+            "c. int a[9];",
+            "d. int a[] = {1, 2, 3, 4, 5, 6, 7, 8, 9, 10};"
+        ],
+        "answer": [
+            0,
+            1,
+            3
+        ]
+    },
+    {
+        "question": "Để khai báo một mảng chứa được một xâu kí tự độ dài 10, ta có thể dùng lệnh khai báo nào?",
+        "choices": [
+            "a. char a[9];",
+            "b. char a[] = \"0123456789\";",
+            "c. char a[10];",
+            "d. char a[11];"
+        ],
+        "answer": [
+            1,
+            3
+        ]
+    },
+    {
+        "question": "Một xâu kí tự s được lưu tại mảng s kích thước 10. Biểu thức nào truy nhập kí tự đứng cuối xâu s?",
+        "choices": [
+            "a. s[strlen(s)]",
+            "b. s[10]",
+            "c. s[9]",
+            "d. s[strlen(s) - 1]"
+        ],
+        "answer": [
+            3
+        ]
+    },
+    {
+        "question": "Có gì sai khi khai báo xâu kí tự a như sau:\nchar a[4] = \"abcd\";",
+        "choices": [
+            "a. Xâu kí tự khởi tạo quá dài so với kích thước khai báo của a, dẫn đến tràn mảng và lỗi run-time",
+            "b. Xâu kí tự khởi tạo quá dài so với kích thước khai báo của a, dẫn đến lỗi biên dịch",
+            "c. Lỗi biên dịch: không được khởi tạo mảng bằng xâu kí tự",
+            "d. Xâu kí tự khởi tạo quá ngắn đối với kích thước khai báo của mảng a, dẫn đến lỗi biên dịch.",
+            "e. Không có gì sai."
+        ],
+        "answer": [
+            0
+        ]
+    },
+    {
+        "question": "Có gì sai ở khai báo sau:\nchar a[3] = \"abc\";",
+        "choices": [
+            "a. Lỗi biên dịch: không được khởi tạo mảng bằng xâu kí tự",
+            "b. Xâu kí tự khởi tạo quá dài so với kích thước khai báo của a, dẫn đến tràn mảng và lỗi run-time",
+            "c. Xâu kí tự khởi tạo quá dài so với kích thước khai báo của a, dẫn đến lỗi biên dịch",
+            "d. Xâu kí tự khởi tạo quá ngắn đối với kích thước khai báo của mảng a, dẫn đến lỗi biên dịch.",
+            "e. Không có gì sai."
+        ],
+        "answer": [
+            1
+        ]
+    },
+    {
+        "question": "Với khai báo dưới đây, ta được a là mảng có kích thước bằng bao nhiêu?\nint a[4] = { 1, 2, 3, 4, 5};",
+        "choices": [
+            "a. 5, do 5 là giá trị lớn hơn giữa kích thước khai báo và độ dài dãy khởi tạo",
+            "b. 5 , do 5 là độ dài danh sách giá trị khởi tạo",
+            "c. 4, do 4 là kích thước khai báo mảng",
+            "d. Không hợp lệ do kích thước khai báo nhỏ hơn độ dài danh sách giá trị khởi tạo"
+        ],
+        "answer": [
+            3
+        ]
+    },
+    {
+        "question": "Sau khi chạy đoạn mã sau giá trị của phần tử thứ hai trong mảng là gì:\nint a[5];\nfor (int i = 0; i <5; i++)\n{\n     a[i] = i + 2;\n     if (i >= 2) a[i - 1] = a[i] + 3;\n}",
+        "choices": [
+            "a. 8",
+            "b. 3",
+            "c. 2",
+            "d. 7"
+        ],
+        "answer": [
+            3
+        ]
+    },
+    {
+        "question": "Mảng a có 10 phần tử, biểu thức nào truy nhập phần tử cuối cùng trong mảng?",
+        "choices": [
+            "a. a(9)",
+            "b. a[9]",
+            "c. a[10]",
+            "d. a(10)"
+        ],
+        "answer": [
+            1
+        ]
+    },
+    {
+        "question": "Mảng a có 10 phần tử, biểu thức nào truy nhập phần tử đầu tiên trong mảng?",
+        "choices": [
+            "a. a[1]",
+            "b. a(0)",
+            "c. a[0]",
+            "d. a(1)"
+        ],
+        "answer": [
+            2
+        ]
+    },
+    {
+        "question": "Với khai báo dưới đây, ta được a là mảng có kích thước bằng bao nhiêu?\nint a[5] = { 1, 2, 3, 4};",
+        "choices": [
+            "a. Khai báo không hợp lệ do kích thước khai báo lớn hơn độ dài danh sách giá trị khởi tạo",
+            "b. 5, do 5 là kích thước khai báo mảng",
+            "c. 4 , do 4 là độ dài danh sách giá trị khởi tạo",
+            "d. 5, do 5 là giá trị lớn hơn giữa kích thước khai báo và độ dài dãy khởi tạo"
+        ],
+        "answer": [
+            1
+        ]
+    },
+    {
+        "question": "Có gì sai ở khai báo sau:\nint a[3] = { 1, 5, 8, 4};",
+        "choices": [
+            "a. Lỗi biên dịch: không được khởi tạo ngay khi khai báo mảng",
+            "b. Danh sách khởi tạo quá dài so với kích thước khai báo, dẫn đến tràn mảng và lỗi run-time",
+            "c. Danh sách khởi tạo quá dài so với kích thước khai báo, dẫn đến lỗi biên dịch",
+            "d. Không có gì sai.",
+            "e. Danh sách khởi tạo không đủ cho kích thước khai báo, dẫn đến lỗi biên dịch."
+        ],
+        "answer": [
+            1
+        ]
+    },
+    {
+        "question": "Có lỗi nào xảy ra với đoạn chương trình sau:\nint sampleArray[10];\nfor (int index = 1; index <= 10; index++)\n    sampleArray[index] = 3*index;",
+        "choices": [
+            "a. Lỗi khi dịch: chưa khởi tạo mảng",
+            "b. Lỗi khi chạy: truy cập phần tử vượt khoảng cho phép",
+            "c. Lỗi khi dịch: truy cập phần tử vượt khoảng cho phép"
+        ],
+        "answer": [
+            1
+        ]
+    },
+    {
+        "question": "Mảng a có 100 phần tử, lệnh nào có thể dùng để in các giá trị a[0],  a[2], a[4], a[6], …",
+        "choices": [
+            "a. for (i=0; i<50; i++) cout << a[i*2] << endl;",
+            "b. for (i=0; i<50; i++) cout << a[i]*2 << endl;",
+            "c. for (i=0; i<100; i=i+2) cout << a[i] << endl;",
+            "d. for (i=0; i<100; i=i*2) cout << a[i] << endl;"
+        ],
+        "answer": [
+            0,
+            2
+        ]
+    },
+    {
+        "question": "Có gì sai ở khai báo sau:\nint a[5] = { 1, 5, 8, 4};",
+        "choices": [
+            "a. Danh sách khởi tạo quá dài so với kích thước khai báo, dẫn đến tràn mảng và lỗi run-time",
+            "b. Lỗi biên dịch: không được khởi tạo ngay khi khai báo mảng",
+            "c. Danh sách khởi tạo không đủ cho kích thước khai báo, dẫn đến lỗi biên dịch.",
+            "d. Không có gì sai.",
+            "e. Danh sách khởi tạo quá dài so với kích thước khai báo, dẫn đến lỗi biên dịch"
+        ],
+        "answer": [
+            3
+        ]
+    },
+    {
+        "question": "Với khai báo dưới đây, ta được a là mảng có kích thước bằng bao nhiêu?\nint a[] = { 1, 2, 3, 4};",
+        "choices": [
+            "a. 4 , do 4 là độ dài danh sách giá trị khởi tạo",
+            "b. Khai báo không hợp lệ do thiếu kích thước khai báo",
+            "c. 0, do thiếu kích thước khai báo",
+            "d. 5, do có 4 giá trị khởi tạo và thêm 1 ô thứ 5 để đánh dấu kết thúc mảng"
+        ],
+        "answer": [
+            0
+        ]
+    },
+    {
+        "question": "Khi gọi hàm, các đối số được truyền vào hàm phải giống các tham số ở ...",
+        "choices": [
+            "a. tên biến"
+        ],
+        "answer": [
+            0
+        ]
+    },
+    {
+        "question": "j có giá trị bao nhiêu sau khi chạy đoạn chương trình sau?\nint incr(int i) {\n   static int count = 0;\n   count = count + i;\n   return (count);\n}\nint main() {\n   int j;\n   for (int i = 0; i <=4; i++)\n      j = incr(i);\n}",
+        "choices": [
+            "a. 6",
+            "b. 7",
+            "c. 4",
+            "d. 10"
+        ],
+        "answer": [
+            3
+        ]
+    },
+    {
+        "question": "Cho khai báo hàm sau\nint foo(string& s);\nvà biến str đã được khởi tạo\nstring str = \"Hello\";\nTrong những lời gọi hàm dưới đây, (những) lệnh nào hợp lệ?",
+        "choices": [
+            "a. foo(s);",
+            "b. foo(str);",
+            "c. foo(\"Hi\");",
+            "d. foo(&str);",
+            "e. foo(&s);"
+        ],
+        "answer": [
+            1
+        ]
+    },
+    {
+        "question": "Chương trình sau in ra cái gì?\n int function1(int k)  {  \n     k++;  \n     return k;  \n}  \n  \nint main()  {  \n    int k=30;  \n    k = function1(k = function1(k = function1(k)));  \n    cout << \"k=\" << k;  \n    return 0;  \n}",
+        "choices": [
+            "a. 31",
+            "b. 33",
+            "c. 30",
+            "d. 32"
+        ],
+        "answer": [
+            1
+        ]
+    },
+    {
+        "question": "Cho hai hàm overload sau:\nvoid f(int x, double y) {\n   cout << \"f(int, double)\";\n}\nvoid f(double x, int y) {\n   cout << \"f(double, int)\";\n}\nLời gọi hàm này sẽ cho kết quả gì?\nf(1,2);",
+        "choices": [
+            "a. f(double, int)",
+            "b. f(int, double)",
+            "c. Lỗi biên dịch, nhập nhằng do cả hai hàm f đều áp dụng được cho lời gọi hàm f(1,2)",
+            "d. Lỗi biên dịch do không có hàm f nào nhận hai tham số kiểu int."
+        ],
+        "answer": [
+            2
+        ]
+    },
+    {
+        "question": "Chương trình sau in ra output gì?\nvoid foo(int n, int sum)\n{\n  if (n == 0) return;\n  int k = n % 10;\n  int j = n / 10;\n  sum = sum + k;\n  foo (j, sum);\n  cout << k << \",\";\n}\n \nint main ()\n{\n  int a = 2048, sum = 0;\n  foo (a, sum);\n  cout << sum;\n}",
+        "choices": [
+            "a. 8, 4, 0, 2, 0",
+            "b. 2, 0, 4, 8, 0",
+            "c. 2, 0, 4, 8, 14",
+            "d. 8, 4, 0, 2, 14"
+        ],
+        "answer": [
+            1
+        ]
+    },
+    {
+        "question": "(Những) phát biểu nào đúng về lệnh return?",
+        "choices": [
+            "a. Trả kết quả cho nơi gọi hàm",
+            "b. Có tác dụng dừng chương trình",
+            "c. Có tác dụng thoát khỏi hàm",
+            "d. Bắt buộc phải có trong hàm"
+        ],
+        "answer": [
+            0,
+            2
+        ]
+    },
+    {
+        "question": "Cho chương trình sau:\nvoid f(int i) {\n   if (i>0) f(i/2);\n}\nint main() {\n    f(9);\n}\nhỏi tại thời điểm trong bộ nhớ có nhiều lời gọi hàm đang chạy nhất, số lời gọi hàm đó là bao nhiêu? (Gợi ý:\n1 lần gọi hàm main + số lời gọi hàm f)\nAnswer:\nThe correct answer is: 6\n \nCâu Hỏi 9 Không trả lời\nCho lệnh sau\nif (f(10))......\n(những) khai báo nào của hàm f dùng được cho lệnh trên?",
+        "choices": [
+            "a. void f(int x);"
+        ],
+        "answer": []
+    },
+    {
+        "question": "Cho lệnh sau\nif (f(10))......\n(những) khai báo nào của hàm f dùng được cho lệnh trên?",
+        "choices": [
+            "a. void f(int x);",
+            "b. bool f(double x);",
+            "c. bool f(string s)",
+            "d. int f(int x);"
+        ],
+        "answer": [
+            1,
+            3
+        ]
+    },
+    {
+        "question": "Cho lệnh sau\nf(10);\n(những) khai báo nào của hàm f dùng được cho lệnh trên?",
+        "choices": [
+            "a. int f(int x);",
+            "b. int f(string s)",
+            "c. double f(double x);",
+            "d. void f(int x);"
+        ],
+        "answer": [
+            0,
+            2,
+            3
+        ]
+    },
+    {
+        "question": "Xét hàm sau\nvoid swap (int a, int b)\n{\n   int temp;\n   temp = a;\n   a = b;\n   b = temp;\n}\nđể tráo giá trị của hai biến x và y.....",
+        "choices": [
+            "a. ta dùng lời gọi hàm swap(&x, &y)",
+            "b. ta dùng lời gọi hàm swap(x,y)",
+            "c. không thể dùng swap(x, y) vì tham số của nó được truyền bằng giá trị",
+            "d. không thể dùng swap(x, y) vì nó không trả về giá trị gì"
+        ],
+        "answer": [
+            2
+        ]
+    },
+    {
+        "question": "Cho chương trình sau:\nvoid f(int i) {\n   std::cout << i << \" \";\n   if (i>0) f(i/2);\n}\nint main() {\n    f(9);\n}\nhỏi output của chương trình là gì?\nAnswer:\nThe correct answer is: 94210\nCâu Hỏi 3 Không trả lời\nHàm không cần trả về giá trị nếu hàm đó định nghĩa kiểu trả về là....",
+        "choices": [
+            "a. int"
+        ],
+        "answer": []
+    },
+    {
+        "question": "Hàm không cần trả về giá trị nếu hàm đó định nghĩa kiểu trả về là....",
+        "choices": [
+            "a. int",
+            "b. long",
+            "c. void",
+            "d. char"
+        ],
+        "answer": [
+            2
+        ]
+    },
+    {
+        "question": "Từ khóa nào dùng để chuyển điều khiển từ một hàm về hàm gọi nó?",
+        "choices": [
+            "a. return",
+            "b. go back",
+            "c. goto",
+            "d. switch"
+        ],
+        "answer": [
+            0
+        ]
+    },
+    {
+        "question": "Hàm nào trong thư viện cstring so sánh hai xâu ký tự?",
+        "choices": [
+            "a. equals()",
+            "b. strcmp()",
+            "c. string_cmp()",
+            "d. str_compare()"
+        ],
+        "answer": [
+            1
+        ]
+    },
+    {
+        "question": "Cho khai báo hàm sau\nint foo(const string& s);\nvà biến str đã được khởi tạo\nstring str = \"Hello\";\nTrong những lời gọi hàm dưới đây, (những) lệnh nào hợp lệ?",
+        "choices": [
+            "a. foo(&str);",
+            "b. foo(str);",
+            "c. foo(\"Hi\");",
+            "d. foo(&s);",
+            "e. foo(s);"
+        ],
+        "answer": [
+            1,
+            2
+        ]
+    },
+    {
+        "question": "Cho khai báo hàm sau\nint foo(string s);\nvà biến str đã được khởi tạo\nconst string str = \"Hello\";\nTrong những lời gọi hàm dưới đây, (những) lệnh nào hợp lệ?",
+        "choices": [
+            "a. foo(\"Hi\");",
+            "b. foo(str);",
+            "c. foo(s);",
+            "d. foo(&str);",
+            "e. Không có lời gọi hàm nào hợp lệ"
+        ],
+        "answer": [
+            0,
+            1
+        ]
+    },
+    {
+        "question": "Cho biết kết quả dịch và chạy của đoạn code sau:\n#include <iostream>\nvoid display (int k)\n{\n  int j = k + 1;\n  std::cout << “Hello” << std::endl;\n}\nint main(int argc, char** argv)\n{\n  int s;\n  display(s);\n  return 0;\n}",
+        "choices": [
+            "a. Chương trình biên dịch thành công nhưng kết quả khi chạy không xác định do đối số s không được khởi tạo trước khi gọi hàm",
+            "b. Chương trình biên dịch thành công và kết quả khi chạy là : Hello",
+            "c. Chương trình biên dịch thành công nhưng gặp lỗi khi chạy vì 2 đối số s, và tham số k không giống nhau",
+            "d. Chương trình gặp lỗi biên dịch vì 2 đối số s, và tham số k không giống nhau",
+            "e. Chương trình gặp lỗi biên dịch vì biến s không được khởi tạo trước khi truyền cho hàm"
+        ],
+        "answer": [
+            1
+        ]
+    },
+    {
+        "question": "Cho lệnh sau\nif ( f(10) > 2) ......\n(những) khai báo nào của hàm f dùng được cho lệnh trên?",
+        "choices": [
+            "a. int f(string s)",
+            "b. int f(int x);",
+            "c. void f(int x);",
+            "d. double f(double x);"
+        ],
+        "answer": [
+            1,
+            3
+        ]
+    },
+    {
+        "question": "Cho chương trình sau:\nvoid f(int i) {\n   std::cout << i << \" \";\n   if (i>0) f(i/2);\n}\nint main() {\n    f(9);\n}\nhỏi output của chương trình là gì?\nAnswer:\nThe correct answer is: 94210\nCâu Hỏi 4 Không trả lời\nCho hàm cube sau:\n  void cube(int i) {\n          i = i * i * i;\n  }\nHỏi trong vòng lặp sau, hàm cube() chạy bao nhiêu lần?\nfor (int i = 0; i < 10; i++)\n      cube(i);",
+        "choices": [
+            "a. 10"
+        ],
+        "answer": []
+    },
+    {
+        "question": "Cho hàm cube sau:\n  void cube(int i) {\n          i = i * i * i;\n  }\nHỏi trong vòng lặp sau, hàm cube() chạy bao nhiêu lần?\nfor (int i = 0; i < 10; i++)\n      cube(i);",
+        "choices": [
+            "a. 10",
+            "b. 9",
+            "c. 3",
+            "d. 2"
+        ],
+        "answer": [
+            0
+        ]
+    },
+    {
+        "question": "Cho khai báo hàm sau\nint foo(string& s);\nvà biến str đã được khởi tạo\nconst string str = \"Hello\";\nTrong những lời gọi hàm dưới đây, (những) lệnh nào hợp lệ?",
+        "choices": [
+            "a. foo(str);",
+            "b. foo(&str);",
+            "c. foo(\"Hi\");",
+            "d. Không có lời gọi hàm nào hợp lệ",
+            "e. foo(s);"
+        ],
+        "answer": [
+            3
+        ]
+    },
+    {
+        "question": "Chọn (các) định nghĩa hàm hoàn chỉnh.",
+        "choices": [
+            "a. int funct();",
+            "b. int funct(int x) {return x=x+1;}",
+            "c. void funct(int) {cout<<\"Hello\"}",
+            "d. int funct(int x) {cout << x+1;}",
+            "e. void funct(x) {cout << x+1;}"
+        ],
+        "answer": [
+            1
+        ]
+    },
+    {
+        "question": "Cho chương trình sau:\nvoid f(int i) {\n   if (i>0) f(i/2);\n}\nint main() {\n    f(9);\n}\nhỏi tại thời điểm trong bộ nhớ có nhiều lời gọi hàm đang chạy nhất, số lời gọi hàm đó là bao nhiêu? (Gợi ý:\n1 lần gọi hàm main + số lời gọi hàm f)\nAnswer:\nThe correct answer is: 6\n \nCâu Hỏi 6 Không trả lời\nXét hàm sau\nvoid swap (int a, int b)\n{\n   int temp;\n   temp = a;\n   a = b;\n   b = temp;\n}\nđể tráo giá trị của hai biến x và y.....",
+        "choices": [
+            "a. không thể dùng swap(x, y) vì nó không trả về giá trị gì"
+        ],
+        "answer": []
+    },
+    {
+        "question": "Cái gì được truyền đi khi ta truyền một mảng làm đối số của một hàm?",
+        "choices": [
+            "a. Địa chỉ của phần tử cuối mảng",
+            "b. Giá trị phần tử đầu tiên trong mảng",
+            "c. Địa chỉ của mảng",
+            "d. Tất cả các giá trị của các phần tử trong mảng"
+        ],
+        "answer": [
+            2
+        ]
+    },
+    {
+        "question": "f(\"Hello World\");\nđể lời gọi hàm trên hợp lệ, hàm f phải có chữ kí như thế nào?",
+        "choices": [
+            "a. f(string* s)",
+            "b. f(char s)",
+            "c. f(const string& s)",
+            "d. f(char  const s)",
+            "e. f(string s)",
+            "f. f(const string* s)",
+            "g. f(const string s)",
+            "h. f(const char * s)"
+        ],
+        "answer": [
+            2,
+            4,
+            6,
+            7
+        ]
+    },
+    {
+        "question": "Giá trị của các biểu thức x và *ptr bằng bao nhiêu sau đoạn lệnh dưới đây?\nint x = 5;\nint *ptr = &x;\n(*ptr)++;",
+        "choices": [
+            "a. x = 6, *ptr = 5",
+            "b. x = 6, *ptr = địa chỉ của x",
+            "c. x = 5, *ptr = 6",
+            "d. x = 6, *ptr = 6"
+        ],
+        "answer": [
+            3
+        ]
+    },
+    {
+        "question": "Cho hàm f định nghĩa như sau\nvoid f(int *p, int *q) {\n  p = q;\n *p = 2;\n}\nvà hai biến\nint i = 0, j = 1;\nHỏi giá trị của i và j như thế nào sau lời gọi hàm f(&i, &j) ?",
+        "choices": [
+            "a. i = 0, j = 2",
+            "b. i = 2, j = 1",
+            "c. i = 0, j = 1",
+            "d. i = 2, j = 2"
+        ],
+        "answer": [
+            0,
+            1,
+            2,
+            3
+        ]
+    },
+    {
+        "question": "int a; int& p = a;\nCho đoạn code trên. Mô tả nào đúng về biến p?",
+        "choices": [
+            "a. là tham chiếu tới a",
+            "b. là con trỏ tới a",
+            "c. là địa chỉ của a",
+            "d. là con trỏ giữ địa chỉ của a"
+        ],
+        "answer": [
+            0
+        ]
+    },
+    {
+        "question": "Các biểu thức (*ptr2) và (ptr2 - ptr1) có giá trị gì sau đoạn lệnh dưới đây?\nﬂoat arr[5] = {12.5, 10.0, 13.5, 90.5, 0.5};\nﬂoat *ptr1 = &arr[0];\nﬂoat *ptr2 = ptr1 + 3;",
+        "choices": [
+            "a. (*ptr2) = 10.0,  (ptr2 - ptr1) = 12",
+            "b. (*ptr2) = 90.5,  (ptr2 - ptr1) = 12",
+            "c. (*ptr2) = 90.5,  (ptr2 - ptr1) = 3",
+            "d. (*ptr2) = 0.5,  (ptr2 - ptr1) = 3"
+        ],
+        "answer": [
+            2
+        ]
+    },
+    {
+        "question": "int var; \nvoid *ptr = &var; \n*ptr = 5;\nGiả sử địa chỉ của biến var là 2000, hỏi sau đoạn lệnh trên các biểu thức var và *ptr có giá trị gì?",
+        "choices": [
+            "a. var = 5, *ptr có giá trị là một địa chỉ ngẫu nhiên nào đó",
+            "b. Lỗi biên dịch",
+            "c. var = 5, *ptr = 2000",
+            "d. var = 5, *ptr = 5"
+        ],
+        "answer": [
+            0,
+            1,
+            2,
+            3
+        ]
+    },
+    {
+        "question": "Trong chương trình sau, có những lỗi gì? Chọn tất cả các câu đúng trong danh sách \"lỗi\" dưới đây\nint main()  {\n   char **s;\n   char foo[] = \"Hello World\";\n   *s = foo;\n   printf(\"s is %s\\n\",s);\n   s[0] = foo;\n   printf(\"s[0] is %s\\n\",s[0]);\n   return(0);\n}",
+        "choices": [
+            "a. *s = foo; lỗi (*s) truy nhập vùng nhớ không xác định",
+            "b. *s = foo; lỗi foo chưa khởi tạo",
+            "c. char **s;   lỗi không được khai báo mà không khởi tạo giá trị s",
+            "d. *s = foo; lỗi gán không tương thích kiểu dữ liệu",
+            "e. s[0] = foo; lỗi s chưa khởi tạo",
+            "f. printf(\"s is %s\\n\",s);  lỗi truy nhập s là vùng nhớ chưa khởi tạo",
+            "g.   char foo[] = \"Hello World\";  lỗi thiếu khai báo kích thước xâu"
+        ],
+        "answer": [
+            0,
+            4
+        ]
+    },
+    {
+        "question": "Hãy viết chương trình thử nghiệm lỗi con trỏ truy nhập vùng bộ nhớ không hợp lệ. Thử cho hàm main() gọi\nweird_string() và in kết quả trả về. \nchar* weird_string() {\n   char c[] = “123345”;\n   return c;\n}\nXem trình biên dịch cảnh báo những gì và chọn câu đúng và đầy đủ nhất trong các câu dưới đây",
+        "choices": [
+            "a. Output là \"123345\", không lỗi",
+            "b. Output không phải là \"123345\" và lệnh in kết quả truy nhập vùng bộ nhớ đã bị giải phóng",
+            "c. Chương trình sập (crash)",
+            "d. Output không phải là \"123345\" nhưng vẫn đúng"
+        ],
+        "answer": [
+            1
+        ]
+    },
+    {
+        "question": "ptr là một con trỏ. Biểu thức *ptr++ tương đương với biểu thức nào dưới đây?",
+        "choices": [
+            "a. phụ thuộc trình biên dịch",
+            "b. *(ptr++)",
+            "c. (*ptr)++"
+        ],
+        "answer": [
+            0,
+            1,
+            2
+        ]
+    },
+    {
+        "question": "char *ptr = \"GeeksQuiz\";\nSau khai báo trên thì biểu thức *&*&*ptr có giá trị gì?",
+        "choices": [
+            "a. Giá trị không xác định",
+            "b. Lỗi khi chạy (run-time error)",
+            "c. Lỗi biên dịch",
+            "d. G"
+        ],
+        "answer": [
+            0,
+            1,
+            2,
+            3
+        ]
+    },
+    {
+        "question": "int a; int* ptr = &a;\nCho đoạn code trên. Mô tả nào đúng về biến ptr?",
+        "choices": [
+            "a. là biến kiểu int",
+            "b. là con trỏ tới địa chỉ của a",
+            "c. là con trỏ tới a",
+            "d. là địa chỉ của a"
+        ],
+        "answer": [
+            2
+        ]
+    },
+    {
+        "question": "Cho đoạn lệnh sau\nint arr[] = {10, 20, 30, 40, 50, 60};\nint *ptr1 = arr;\nint *ptr2 = arr + 5;\nBiết rằng kích thước một biến kiểu int là 4 byte. Hỏi số byte nằm giữa hai con trỏ, tính bằng công thức \n(char*)ptr2 - (char*) ptr1), có giá trị bằng bao nhiêu sau đoạn lệnh trên?",
+        "choices": [
+            "a. 4",
+            "b. 5",
+            "c. 20",
+            "d. Biểu thức không hợp lệ"
+        ],
+        "answer": [
+            2
+        ]
+    },
+    {
+        "question": "Hỏi biến a có giá trị bằng bao nhiêu sau đoạn lệnh dưới đây?\n   int a;\n   char *x;\n   x = (char *) &a;\n   a = 512;\n   x[0] = 1;\n   x[1] = 2;",
+        "choices": [
+            "a. 513",
+            "b. Lỗi biên dịch",
+            "c. Phụ thuộc kiến trúc máy tính",
+            "d. 258"
+        ],
+        "answer": [
+            0,
+            1,
+            2,
+            3
+        ]
+    },
+    {
+        "question": "int* ptr1, ptr2;\nSau lệnh trên, ptr1 và ptr2 là hai con trỏ tới kiểu int chưa được khởi tạo, nghĩa là chúng đang trỏ tới vùng\nđịa chỉ ngẫu nhiên mà có thể không phải địa chỉ hợp lệ\nChọn câu:\nĐúng\nSai\nChỉ có ptr1 là con trỏ chưa khởi tạo, ptr2 là biến kiểu int chưa được khởi tạo, nếu muốn khai báo cả hai biến là\ncon trỏ thì phải viết\nint *ptr1, *ptr2;\nĐáp án chính xác là \"Sai\"\nCâu Hỏi 5 Không trả lời\nCho đoạn lệnh sau\nint arr[] = {10, 20, 30, 40, 50, 60};\nint *ptr1 = arr;\nint *ptr2 = arr + 5;\nHỏi số phần tử mảng nằm giữa hai con trỏ, tính bằng công thức  (ptr2 - ptr1), bằng bao nhiêu sau đoạn lệnh\ntrên?",
+        "choices": [
+            "a. 4"
+        ],
+        "answer": [
+            0
+        ]
+    },
+    {
+        "question": "Cho đoạn lệnh sau\nint arr[] = {10, 20, 30, 40, 50, 60};\nint *ptr1 = arr;\nint *ptr2 = arr + 5;\nHỏi số phần tử mảng nằm giữa hai con trỏ, tính bằng công thức  (ptr2 - ptr1), bằng bao nhiêu sau đoạn lệnh\ntrên?",
+        "choices": [
+            "a. 4",
+            "b. 20",
+            "c. 5",
+            "d. Biểu thức không hợp lệ"
+        ],
+        "answer": [
+            2
+        ]
+    },
+    {
+        "question": "Hỏi giá trị biểu thức (*ptr) sau đoạn lệnh sau\nint a = 12;    \nvoid *ptr = (int *)&a;",
+        "choices": [
+            "a. 12",
+            "b. Lỗi khi chạy - runtime-error",
+            "c. 0",
+            "d. Lỗi biên dịch"
+        ],
+        "answer": [
+            0,
+            1,
+            2,
+            3
+        ]
+    },
+    {
+        "question": "Giá trị của các biểu thức x và *ptr bằng bao nhiêu sau đoạn lệnh dưới đây?\nint x = 0;\nint *ptr = &x;\n*ptr += 5;",
+        "choices": [
+            "a. x = 5, *ptr = địa chỉ của x",
+            "b. Giá trị của *ptr không xác định, x = 5",
+            "c. Giá trị của x không xác định, *ptr = 5",
+            "d. x = 5, *ptr = 5"
+        ],
+        "answer": [
+            3
+        ]
+    },
+    {
+        "question": "Hoàn thành chương trình dưới đây để in ra địa chỉ của biến x trong hàm f() và của biến y trong hàm g(). \nvoid f(int xval) {\n  int x;\n  x = xval;\n  // in địa chỉ của x tại đây\n}\nvoid g(int yval) {\n  int y;\n  // in địa chỉ của y tại đây\n}\nint main() {\n  f(7);\n  g(11);\n  return 0;\n}\nBạn có nhận xét gì về địa chỉ của hai biến đó, chọn câu mô tả và giải thích đúng nhất.",
+        "choices": [
+            "a. kết quả in ra giống nhau, vì đó x và y cùng là biến địa phương đầu tiên trong hàm",
+            "b. tình cờ kết quả giống nhau, không có gì đặc biệt",
+            "c. kết quả in ra khác nhau, vì đó là hai hàm khác nhau",
+            "d. kết quả in ra giống nhau, vì đó x và y cùng là biến địa phương đầu tiên trong hàm và f và g cùng được gọi thẳng từ main",
+            "e. kết quả in ra khác nhau, vì đó là hai lời gọi hàm khác nhau"
+        ],
+        "answer": [
+            0,
+            3
+        ]
+    },
+    {
+        "question": "Lệnh sau khai báo cái gì?\nint (*f) (int*);",
+        "choices": [
+            "a. Một hàm nhận tham số là một con trỏ tới int và trả về giá trị kiểu int",
+            "b. Một hàm nhận tham số là một con trỏ tới int và trả về một con trỏ tới hàm",
+            "c. Một hàm nhận tham số là một giá trị kiểu int và trả về một con trỏ tới int",
+            "d. Một con trỏ tới một hàm nhận tham số là một con trỏ tới int và trả về một giá trị kiểu int"
+        ],
+        "answer": [
+            3
+        ]
+    },
+    {
+        "question": "int a = 10; int* ptr = a;\nCho đoạn code trên. Mô tả nào đúng về biến ptr?",
+        "choices": [
+            "a. Lệnh gán thứ hai lỗi không tương thích kiểu",
+            "b. ptr có giá trị không xác định",
+            "c. ptr có giá trị bằng địa chỉ của a",
+            "d. ptr có giá trị bằng giá trị của a"
+        ],
+        "answer": [
+            0
+        ]
+    },
+    {
+        "question": "Cho các khai báo sau:\nchar s[] = \"12345\";\nchar* p = s;\nchar** pp = &p;\nGiả sử địa chỉ của s là 0x1000, của p là 0x1100, của pp là 0x1200.\nCho biết giá trị của các biểu thức sau\n*(*pp+2)\npp\n**pp\n*(p+3)\np\n&pp\ns[4]+1\n&s[4]\nCâu trả lời của bạn sai.\nThe correct answer is: *(*pp+2) →  3, pp →  0x1100, **pp →  1, *(p+3) →  4, p →  0x1000, &pp →  0x1200, s[4]+1 → \n6, &s[4] →  0x1004\nChọn...\nChọn...\nChọn...\nChọn...\nChọn...\nChọn...\nChọn...\nChọn...\n \nCâu Hỏi 7 Không trả lời\nCho hàm\nvoid fun(int arr[])\n{\n  int arr_size = sizeof(arr)/sizeof(arr[0]);\n  for (int i = 0; i < arr_size; i++)\n      cout << arr[i] << \" \";\n}\nvà mảng\nint arr[4] = {10, 20 ,30, 40};\nHỏi lời gọi hàm fun(arr) in ra output gì?",
+        "choices": [
+            "a. 10 20 30 40"
+        ],
+        "answer": [
+            0
+        ]
+    },
+    {
+        "question": "Cho hàm\nvoid fun(int arr[])\n{\n  int arr_size = sizeof(arr)/sizeof(arr[0]);\n  for (int i = 0; i < arr_size; i++)\n      cout << arr[i] << \" \";\n}\nvà mảng\nint arr[4] = {10, 20 ,30, 40};\nHỏi lời gọi hàm fun(arr) in ra output gì?",
+        "choices": [
+            "a. 10 20 30 40",
+            "b. 10 20",
+            "c. Tùy kiến trúc máy tính",
+            "d. Không in ra gì cả"
+        ],
+        "answer": [
+            2
+        ]
+    },
+    {
+        "question": "Hỏi giá trị của *p là gì sau đoạn lệnh sau?\nint arr[] = {1, 2, 3, 4, 5};\nint *p = arr;   \n++*p;    \np += 2;",
+        "choices": [
+            "a. 3",
+            "b. Lỗi biên dịch",
+            "c. 4",
+            "d. 2"
+        ],
+        "answer": [
+            0
+        ]
+    },
+    {
+        "question": "Giả sử mảng A được khai báo tại hàm main bằng lệnh\nint A[4];\nsau đó được truyền vào hàm f qua tham số a\nvoid f(int a[]) {....}\nHãy so sánh kết quả của hàm sizeof đối với mảng a từ bên trong hàm f và với A tại hàm main(). \nBiết rằng kích thước của 1 biến int là 4 byte, kích thước của một con trỏ là 4 byte. Hãy chọn các câu đúng\ntrong các phát biểu dưới đây",
+        "choices": [
+            "a. cả hai cùng cho kết quả bằng 4",
+            "b. sizeof(A) cho kết quả 4 còn sizeof(a) cho kết quả 0",
+            "c. sizeof(A) cho kết quả 16 còn sizeof(a) cho kết quả 4",
+            "d. cả hai cùng cho kết quả bằng 16"
+        ],
+        "answer": [
+            2
+        ]
+    },
+    {
+        "question": "Giá trị của các biểu thức x và *ptr bằng bao nhiêu sau đoạn lệnh dưới đây?\nint x;\nint *ptr = &x;\n*ptr = 0;",
+        "choices": [
+            "a. x = 0, *ptr = địa chỉ của x",
+            "b. Giá trị của *ptr không xác định, x = 0",
+            "c. Giá trị của x không xác định, *ptr = 0",
+            "d. x = 0, *ptr = 0"
+        ],
+        "answer": [
+            3
+        ]
+    },
+    {
+        "question": "Cho các khai báo sau:\nchar s[] = \"12345\";\nchar* p = s;\nchar** pp = &p;\nGiả sử địa chỉ của s là 0x1000, của p là 0x1100, của pp là 0x1200.\nCho biết giá trị của các biểu thức sau\np\ns[4]+1\n*(*pp+2)\n*(p+3)\n&pp\n**pp\n&s[4]\npp\nCâu trả lời của bạn sai.\nThe correct answer is: p →  0x1000, s[4]+1 →  6, *(*pp+2) →  3, *(p+3) →  4, &pp →  0x1200, **pp →  1, &s[4] → \n0x1004, pp →  0x1100\nChọn...\nChọn...\nChọn...\nChọn...\nChọn...\nChọn...\nChọn...\nChọn...\n \nCâu Hỏi 7 Không trả lời\nCho đoạn lệnh sau\nint arr[] = {10, 20, 30, 40, 50, 60};\nint *ptr1 = arr;\nint *ptr2 = arr + 5;\nBiết rằng kích thước một biến kiểu int là 4 byte. Hỏi số byte nằm giữa hai con trỏ, tính bằng công thức \n(char*)ptr2 - (char*) ptr1), có giá trị bằng bao nhiêu sau đoạn lệnh trên?",
+        "choices": [
+            "a. 5"
+        ],
+        "answer": [
+            0
+        ]
+    },
+    {
+        "question": "Các biểu thức k, *p, và **m có giá trị gì sau đoạn chương trình sau?\nint k=5;\nint *p=&k;\nint **m=&p;",
+        "choices": [
+            "a. k = 5, *p và **m có giá trị không xác định",
+            "b. k = 5, *p = 5, **m có giá trị không xác định",
+            "c. k = 5, *p = 5, **m =5",
+            "d. Lỗi biên dịch"
+        ],
+        "answer": [
+            2
+        ]
+    },
+    {
+        "question": "int* ptr1, ptr2;\nSau lệnh trên, ptr1 và ptr2 là hai con trỏ tới kiểu int chưa được khởi tạo, nghĩa là chúng đang trỏ tới vùng\nđịa chỉ ngẫu nhiên mà có thể không phải địa chỉ hợp lệ\nChọn câu:\nĐúng \nSai\nChỉ có ptr1 là con trỏ chưa khởi tạo, ptr2 là biến kiểu int chưa được khởi tạo, nếu muốn khai báo cả hai biến là\ncon trỏ thì phải viết\nint *ptr1, *ptr2;\nĐáp án chính xác là \"Sai\"\n \nCâu Hỏi 8 Không trả lời\nCho hàm\nvoid fun(int arr[])\n{\n  int arr_size = sizeof(arr)/sizeof(arr[0]);\n  for (int i = 0; i < arr_size; i++)\n      cout << arr[i] << \" \";\n}\nvà mảng\nint arr[4] = {10, 20 ,30, 40};\nHỏi lời gọi hàm fun(arr) in ra output gì?",
+        "choices": [
+            "a. 10 20 30 40"
+        ],
+        "answer": []
+    },
+    {
+        "question": "int* ptr1, ptr2;\nSau lệnh trên, ptr1 và ptr2 là hai con trỏ tới kiểu int chưa được khởi tạo, nghĩa là chúng đang trỏ tới vùng\nđịa chỉ ngẫu nhiên mà có thể không phải địa chỉ hợp lệ\nChọn câu:\nĐúng\nSai \nChỉ có ptr1 là con trỏ chưa khởi tạo, ptr2 là biến kiểu int chưa được khởi tạo, nếu muốn khai báo cả hai biến là\ncon trỏ thì phải viết\nint *ptr1, *ptr2;\nĐáp án chính xác là \"Sai\"\nCâu Hỏi 9 Đúng\nchar *ptr = \"GeeksQuiz\";\nSau khai báo trên thì biểu thức *&*&*ptr có giá trị gì?",
+        "choices": [
+            "a. G"
+        ],
+        "answer": [
+            0
+        ]
+    },
+    {
+        "question": "int* ptr1, ptr2;\nSau lệnh trên, ptr1 và ptr2 là hai con trỏ tới kiểu int chưa được khởi tạo, nghĩa là chúng đang trỏ tới vùng\nđịa chỉ ngẫu nhiên mà có thể không phải địa chỉ hợp lệ\nChọn câu:\nĐúng\nSai \nChỉ có ptr1 là con trỏ chưa khởi tạo, ptr2 là biến kiểu int chưa được khởi tạo, nếu muốn khai báo cả hai biến là\ncon trỏ thì phải viết\nint *ptr1, *ptr2;\nĐáp án chính xác là \"Sai\"\nCâu Hỏi 5 Đúng\nint a = 10; int* ptr = a;\nCho đoạn code trên. Mô tả nào đúng về biến ptr?",
+        "choices": [
+            "a. Lệnh gán thứ hai lỗi không tương thích kiểu"
+        ],
+        "answer": [
+            0
+        ]
+    },
+    {
+        "question": "Đoạn code sau có gì sai?\nint *p = new int[10];\nfor (int i = 0; i<10; i++) p[i] = i;\nfor (int i = 0; i<10; i++) p[i] = p[i] + *(p+1);",
+        "choices": [
+            "a. Lỗi run-time do ghi vào vùng bộ nhớ không hợp lệ",
+            "b. Lỗi run-time do đọc vùng bộ nhớ không hợp lệ",
+            "c. Không có gì sai",
+            "d. Lỗi biên dịch"
+        ],
+        "answer": [
+            2
+        ]
+    },
+    {
+        "question": "Lệnh nào tạo một mảng động kích thước 10 gồm các con trỏ tới int?",
+        "choices": [
+            "a. int *arr = new int *[10];",
+            "b. Không có lệnh nào đúng.",
+            "c. int **arr = new int *[10];",
+            "d. int *arr = new int[10];"
+        ],
+        "answer": [
+            2
+        ]
+    },
+    {
+        "question": "Output của chương trình sau là gì?\n#include <iostream>\nstruct Test\n{\n  int x;\n  Test() { x = 5;}\n};\nint main()\n{\n   Test *t = new Test;\n   std::cout << t->x;\n}",
+        "choices": [
+            "a. Lỗi biên dịch",
+            "b. một giá trị rác",
+            "c. 5",
+            "d. 0"
+        ],
+        "answer": [
+            2
+        ]
+    },
+    {
+        "question": "Hàm sau có gì sai?\nint* foo(int x) {\n   int *p;\n   *p = x;\n   return p;\n}",
+        "choices": [
+            "a. Hàm trả về địa chỉ của vùng bộ nhớ không hợp lệ",
+            "b. Không có gì sai",
+            "c. Hàm truy nhập vào vùng bộ nhớ không hợp lệ",
+            "d. Lỗi biên dịch"
+        ],
+        "answer": [
+            2
+        ]
+    },
+    {
+        "question": "Hàm sau có gì sai?\nint* foo(int x) {\n   int *p = new int[x];\n   return p;\n}",
+        "choices": [
+            "a. Hàm truy nhập vào vùng bộ nhớ không hợp lệ",
+            "b. Không có gì sai",
+            "c. Hàm trả về địa chỉ của vùng bộ nhớ không hợp lệ",
+            "d. Lỗi biên dịch"
+        ],
+        "answer": [
+            1
+        ]
+    },
+    {
+        "question": "Đoạn code sau có gì sai?\nint x;\nint *p = new int;\np = &x;",
+        "choices": [
+            "a. Không có gì sai",
+            "b. Lỗi biên dịch",
+            "c. Thất thoát bộ nhớ khi gán p = &x",
+            "d. Lỗi runtime khi chạy lệnh int *p = new int;"
+        ],
+        "answer": [
+            2
+        ]
+    },
+    {
+        "question": "Hàm sau có gì sai?\nint* foo(int x) {\n   int *p = new int;\n  *p = x*x;\n   return p;\n}",
+        "choices": [
+            "a. Lỗi biên dịch",
+            "b. Hàm truy nhập vào vùng bộ nhớ không hợp lệ",
+            "c. Không có gì sai",
+            "d. Hàm trả về địa chỉ của vùng bộ nhớ không hợp lệ"
+        ],
+        "answer": [
+            2
+        ]
+    },
+    {
+        "question": "Đoạn code sau có gì sai?\nint *p = new int[10];\nint *p2 = p + 5;\ndelete [] p2;",
+        "choices": [
+            "a. Sai, không được thu hồi mảng cấp phát động từ lưng chừng mảng, chỉ được thu hồi từ đầu mảng.",
+            "b. Đáng ra phải dùng lệnh delete [5] p2 chứ không phải delete [] p2, khi delete cần cung cấp kích thước được thu hồi.",
+            "c. Không có gì sai, mảng được thu hồi đoạn cuối",
+            "d. Lỗi biên dịch"
+        ],
+        "answer": [
+            0
+        ]
+    },
+    {
+        "question": "Chuyện gì xảy ra khi delete một con trỏ null?\nint *ptr = NULL;\ndelete ptr;",
+        "choices": [
+            "a. Chương trình treo khi chạy",
+            "b. Lỗi biên dịch",
+            "c. Không có hiện tượng gì"
+        ],
+        "answer": [
+            0,
+            1,
+            2
+        ]
+    },
+    {
+        "question": "Đoạn code sau có gì sai?\nint *p = new int[10];\ndelete p;",
+        "choices": [
+            "a. Không có gì sai",
+            "b. Lỗi biên dịch",
+            "c. Đáng ra phải delete cả mảng chứ không chỉ delete một biến kiểu int",
+            "d. Đáng ra phải dùng lệnh delete p[10] chứ không phải delete p"
+        ],
+        "answer": [
+            2
+        ]
+    },
+    {
+        "question": "Chọn các phát biểu đúng về từ khóa new trong lệnh\nstring *p = new string;",
+        "choices": [
+            "a. new gọi hàm tạo (constructor)",
+            "b. new là một toán tử",
+            "c. new trả về một con trỏ tới kiểu tương ứng",
+            "d. new trả về một con trỏ tới kiểu void*"
+        ],
+        "answer": [
+            0,
+            1
+        ]
+    },
+    {
+        "question": "với khai báo\nint x = 10;\nLệnh sau có tác dụng gì?\nint *p = &x;",
+        "choices": [
+            "a. gán giá trị của x cho p",
+            "b. Gán địa chỉ của x cho p",
+            "c. Gán cho &x giá trị của p",
+            "d. Cho p làm tham chiếu tới x",
+            "e. Trỏ x tới p",
+            "f. Gán cho x giá trị *p",
+            "g. gán giá trị của x cho *p",
+            "h. Trỏ p tới x"
+        ],
+        "answer": [
+            1,
+            7
+        ]
+    },
+    {
+        "question": "Hàm sau có gì sai?\nint* foo(int x) {\n   int *p = &x;\n   *p *= 3;\n   return p;\n}",
+        "choices": [
+            "a. Hàm trả về địa chỉ của vùng bộ nhớ không hợp lệ",
+            "b. Không có gì sai",
+            "c. Hàm truy nhập vào vùng bộ nhớ không hợp lệ",
+            "d. Lỗi biên dịch"
+        ],
+        "answer": [
+            0
+        ]
+    },
+    {
+        "question": "Lệnh nào cấp phát mảng động kích thước 10?",
+        "choices": [
+            "a. int *p = new int(10);",
+            "b. int *p = new int[10];",
+            "c. int p[11];",
+            "d. int *p = new int(11);",
+            "e. int *p = new int[11];",
+            "f. int p[10];"
+        ],
+        "answer": [
+            1
+        ]
+    },
+    {
+        "question": "Đoạn code sau có gì sai?\nint *p = new int[10];\nfor (int i = 0; i<10; i++, p++) *p = i;\nfor (int i = 0; i<10; i++, p++) *p = *p + *(p+1);",
+        "choices": [
+            "a. Lỗi biên dịch",
+            "b. Lỗi run-time do ghi vào vùng bộ nhớ không hợp lệ",
+            "c. Không có gì sai",
+            "d. Lỗi run-time do đọc vùng bộ nhớ không hợp lệ"
+        ],
+        "answer": [
+            3
+        ]
+    },
+    {
+        "question": "Xóa một con trỏ hai lần có ổn không?\n    int *ptr = new int;\n    delete ptr;\n    delete ptr;",
+        "choices": [
+            "a. Chắc chắn bị lỗi khi chạy chương trình",
+            "b. Chắc chắn bị lỗi biên dịch",
+            "c. Thu hồi thêm lần nữa không sao cả",
+            "d. Không ổn. C++ không quy định gì về việc thu hồi hai lần đối với vùng bộ nhớ được cấp phát, cho nên có thể bị lỗi có thể không."
+        ],
+        "answer": [
+            3
+        ]
+    },
+    {
+        "question": "Cho đoạn lệnh sau\nstruct Address {\n   string street;\n   string number;\n} ;\nAddress addr;\nHỏi addr có giá trị như thế nào?",
+        "choices": [
+            "a. addr được khởi tạo bằng hàm tạo mặc định, nó không làm gì cả nên street và number giữ nguyên giá trị ngẫu nhiên chưa được khởi tạo",
+            "b. Do là biến toàn cục nên addr được khởi tạo bằng hàm tạo mặc định, nó không làm gì cả và kết quả là street và number là xâu rỗng",
+            "c. Lỗi biên dịch do không tìm thấy hàm khởi tạo nhận hai tham số.",
+            "d. Lỗi biên dịch do không tìm thấy hàm khởi tạo mặc định",
+            "e. addr được khởi tạo bằng hàm tạo đã được định nghĩa, kết quả là street là \"Baker St.\" và number \"221B\""
+        ],
+        "answer": [
+            1
+        ]
+    },
+    {
+        "question": "Cho các khai báo hợp lệ sau:\nstruct Foo {\n       void bah(Foo& f) const {....}\n} foo1;\nconst Foo foo2;\nHỏi trong các đoạn lệnh sau, những đoạn nào không bị lỗi biên dịch?",
+        "choices": [
+            "a. foo2.bah(foo2)",
+            "b. foo2.bah(foo1)",
+            "c. foo1.bah(foo2)",
+            "d. foo1.bah(foo1)"
+        ],
+        "answer": [
+            1,
+            3
+        ]
+    },
+    {
+        "question": "Cho các khai báo\nstruct Address {\n   string street;\n   int number;\n}  addr;\nAddress *ptr = &addr;\nHỏi (những) biểu thức nào truy nhập trường street của biến addr?",
+        "choices": [
+            "a. (*ptr).street",
+            "b. (&addr)->street",
+            "c. addr.street",
+            "d. (*ptr)->street",
+            "e. ptr->street",
+            "f. (&addr).street",
+            "g. Address.street",
+            "h. addr->street",
+            "i. ptr.street"
+        ],
+        "answer": [
+            0,
+            1,
+            2,
+            4
+        ]
+    },
+    {
+        "question": "Hàm tạo không nhận tham số nào được gọi là....",
+        "choices": [
+            "a. Hàm tạo ảo",
+            "b. Hàm tạo tĩnh",
+            "c. Hàm tạo mặc định",
+            "d. Hàm tạo động"
+        ],
+        "answer": [
+            2
+        ]
+    },
+    {
+        "question": "Cho đoạn lệnh sau\nstruct Address {\n   string street;\n   string number;\n   Address(string _street, string _number) {\n     street = _street;\n     number = _number;\n  }\n} ;\nAddress addr(\"Baker St.\", \"221B\");\nHỏi addr có giá trị như thế nào?",
+        "choices": [
+            "a. Lỗi biên dịch do không tìm thấy hàm khởi tạo mặc định",
+            "b. addr được khởi tạo bằng hàm tạo đã được định nghĩa, nhưng hàm này không có tác dụng gì",
+            "c. Lỗi biên dịch do không tìm thấy hàm khởi tạo nhận hai tham số.",
+            "d. addr được khởi tạo bằng hàm tạo đã được định nghĩa, kết quả là street là \"Baker St.\" và number \"221B\"",
+            "e. Do là biến toàn cục nên addr được khởi tạo bằng hàm tạo mặc định, kết quả là street là xâu rỗng và number = 0"
+        ],
+        "answer": [
+            3
+        ]
+    },
+    {
+        "question": "Những phát biểu nào đúng về toán tử new?",
+        "choices": [
+            "a. Nó khởi tạo giá trị của con trỏ về 0 hoặc NULL.",
+            "b. Nó trả về giá trị rác khi không thể cấp phát được bộ nhớ theo yêu cầu",
+            "c. Nó tự động gọi hàm tạo của kiểu dữ liệu tương ứng",
+            "d. Nó tự động tính kích thước của phần dữ liệu được cấp phát"
+        ],
+        "answer": [
+            3
+        ]
+    },
+    {
+        "question": "Cho các khai báo hợp lệ sau:\nstruct Foo {\n       void bah(Foo f) const {....}\n} foo1;\nconst Foo foo2;\nHỏi trong các đoạn lệnh sau, những đoạn nào không bị lỗi biên dịch?",
+        "choices": [
+            "a. foo1.bah(foo2)",
+            "b. foo1.bah(foo1)",
+            "c. foo2.bah(foo2)",
+            "d. foo2.bah(foo1)"
+        ],
+        "answer": [
+            0,
+            1,
+            2,
+            3
+        ]
+    },
+    {
+        "question": "Cho các khai báo hợp lệ sau:\nstruct Foo {\n       void bah(Foo f) {....}\n} foo1;\nconst Foo foo2;\nHỏi trong các đoạn lệnh sau, những đoạn nào không bị lỗi biên dịch?",
+        "choices": [
+            "a. foo2.bah(foo1)",
+            "b. foo1.bah(foo2)",
+            "c. foo1.bah(foo1)",
+            "d. foo2.bah(foo2)"
+        ],
+        "answer": [
+            1,
+            2
+        ]
+    },
+    {
+        "question": "Cho các khai báo hợp lệ sau:\nstruct Foo {\n       void bah(const Foo& f) {....}\n} foo1;\nconst Foo foo2;\nHỏi trong các đoạn lệnh sau, những đoạn nào không bị lỗi biên dịch?",
+        "choices": [
+            "a. foo1.bah(foo1)",
+            "b. foo2.bah(foo1)",
+            "c. foo2.bah(foo2)",
+            "d. foo1.bah(foo2)"
+        ],
+        "answer": [
+            0,
+            3
+        ]
+    },
+    {
+        "question": "Cho khai báo\nstruct Address {\n   string street;\n   int number;\n}  addr;\nHỏi những khai báo nào là đúng cú pháp C++ cho hàm nhận tham số kiểu Address?",
+        "choices": [
+            "a. void foo(struct Address address)",
+            "b. void foo(Address& address)",
+            "c. void foo(struct Address& address)",
+            "d. void foo(Address address)"
+        ],
+        "answer": [
+            1,
+            3
+        ]
+    },
+    {
+        "question": "Cho các khai báo hợp lệ sau:\nstruct Foo {\n       void bah(const Foo& f) const {....}\n} foo1;\nconst Foo foo2;\nHỏi trong các đoạn lệnh sau, những đoạn nào không bị lỗi biên dịch?",
+        "choices": [
+            "a. foo2.bah(foo1)",
+            "b. foo1.bah(foo2)",
+            "c. foo1.bah(foo1)",
+            "d. foo2.bah(foo2)"
+        ],
+        "answer": [
+            0,
+            1,
+            2,
+            3
+        ]
+    },
+    {
+        "question": "Cho các mô tả dưới đây về hàm tạo (constructor), mô tả nào đúng?",
+        "choices": [
+            "a. Hàm tạo có thể trả về giá trị nhưng không bắt buộc",
+            "b. Hàm tạo có tên trùng với tên struct/class",
+            "c. Bắt buộc phải định nghĩa hàm tạo",
+            "d. Một struct/class có thể có nhiều hàm tạo",
+            "e. Hàm tạo bắt buộc phải có tham số"
+        ],
+        "answer": [
+            1,
+            3
+        ]
+    },
+    {
+        "question": "Giả sử đã có struct Test và biến t1 thuộc kiểu Test. Những lệnh nào trong các lệnh sau đây sẽ gọi hàm tạo\n(constructor) của Test?",
+        "choices": [
+            "a. Test t2(t1);",
+            "b. Test* pt = &t1;",
+            "c. Test t3 = t1;",
+            "d. t4 = t1;"
+        ],
+        "answer": [
+            0,
+            2
+        ]
+    },
+    {
+        "question": "Nếu trong một struct/class không định nghĩa một hàm tạo (constructor) nào, thì biến được tạo ra sẽ được\nkhởi tạo như thế nào?",
+        "choices": [
+            "a. Sẽ không có chuyện gì xảy ra",
+            "b. Sẽ có lỗi run-time",
+            "c. Trình biên dịch sẽ tạo ra một hàm tạo mặc định có nội dung rỗng và không nhận tham số để khởi tạo biến mới.",
+            "d. Sẽ có lỗi biên dịch"
+        ],
+        "answer": [
+            2
+        ]
+    },
+    {
+        "question": "Trong các đoạn lệnh sau, những đoạn nào cấp phát bộ nhớ cho một biến int với giá trị 100 tại bộ nhớ\nđộng?",
+        "choices": [
+            "a. int *p = new int(100);",
+            "b. int *p = NULL; p = new int; *p = 100;",
+            "c. int *p; p = new int; *p = 100;",
+            "d. int *p = 100;"
+        ],
+        "answer": [
+            0,
+            1,
+            2
+        ]
+    },
+    {
+        "question": "Cho các mô tả dưới đây về hàm hủy (destructor), mô tả nào sai?",
+        "choices": [
+            "a. Hàm hủy có tên trùng với tên struct/class kèm theo dấu ~ ở cuối",
+            "b. Không định nghĩa hàm hủy thì không gây lỗi cú pháp",
+            "c. Hàm hủy bắt buộc phải có tham số",
+            "d. Hàm hủy có thể nhận tham số",
+            "e. Hàm hủy được gọi khi đối tượng/biến ra khỏi phạm vi."
+        ],
+        "answer": [
+            3
+        ]
+    },
+    {
+        "question": "Cho đoạn lệnh sau\nstruct Address {\n   string street;\n   int number;\n   Address(string _street, int _number) {\n     street = _street;\n     number = _number;\n  }\n} ;\nAddress addr;\nHỏi addr có giá trị như thế nào?",
+        "choices": [
+            "a. addr được khởi tạo bằng hàm tạo đã được định nghĩa, kết quả là street là xâu rỗng và number = 0",
+            "b. Lỗi biên dịch do không tìm thấy hàm khởi tạo nhận hai tham số.",
+            "c. Do là biến toàn cục nên addr được khởi tạo bằng hàm tạo mặc định, kết quả là street là xâu rỗng và number = 0",
+            "d. Lỗi biên dịch do không tìm thấy hàm khởi tạo mặc định",
+            "e. addr mới được khai báo chứ chưa được khởi tạo nên nhận giá trị null"
+        ],
+        "answer": [
+            3
+        ]
+    },
+    {
+        "question": "Cho đoạn lệnh sau\nstruct Address {\n   string street;\n   string number;\n   Address(string street, string number) {\n     street = street;\n     number = number;\n  }\n} ;\nAddress addr(\"Baker St.\", \"221B\");\nHỏi addr có giá trị như thế nào?",
+        "choices": [
+            "a. addr được khởi tạo bằng hàm tạo đã được định nghĩa, nhưng hàm này không có tác dụng gì",
+            "b. Do là biến toàn cục nên addr được khởi tạo bằng hàm tạo mặc định, kết quả là street là xâu rỗng và number = 0",
+            "c. Lỗi biên dịch do không tìm thấy hàm khởi tạo nhận hai tham số.",
+            "d. Lỗi biên dịch do không tìm thấy hàm khởi tạo mặc định",
+            "e. addr được khởi tạo bằng hàm tạo đã được định nghĩa, kết quả là street là \"Baker St.\" và number \"221B\""
+        ],
+        "answer": [
+            0
+        ]
+    }
+]
