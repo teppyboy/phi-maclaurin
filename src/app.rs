@@ -253,15 +253,13 @@ impl eframe::App for TemplateApp {
                                 );
                             }
                         } else {
-                            ui.horizontal(|ui| {
-                                for j in 0..question.choices.len() {
-                                    // Convert usize to bool for checkbox, then back to usize
-                                    let mut is_checked = self.my_question_choices[i][j] != 0;
-                                    if ui.checkbox(&mut is_checked, &question.choices[j]).changed() {
-                                        self.my_question_choices[i][j] = if is_checked { 1 } else { 0 };
-                                    }
+                            for j in 0..question.choices.len() {
+                                // Convert usize to bool for checkbox, then back to usize
+                                let mut is_checked = self.my_question_choices[i][j] != 0;
+                                if ui.checkbox(&mut is_checked, &question.choices[j]).changed() {
+                                    self.my_question_choices[i][j] = if is_checked { 1 } else { 0 };
                                 }
-                            });
+                            }
                         }
                         if self.show_answer {
                             let mut answer = String::new();
