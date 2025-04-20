@@ -12,6 +12,7 @@ struct Question {
 
 static QUESTIONS_TRIET_STR: &str = include_str!("../parser/triet-hoc.json");
 static QUESTIONS_LTNC_STR: &str = include_str!("../parser/ltnc.json");
+static QUESTIONS_PLDC_STR: &str = include_str!("../parser/pldc.json");
 
 /// We derive Deserialize/Serialize so we can persist app state on shutdown.
 #[derive(serde::Deserialize, serde::Serialize)]
@@ -139,6 +140,10 @@ impl eframe::App for TemplateApp {
                     self.all_questions = serde_json::from_str(QUESTIONS_LTNC_STR).unwrap();
                     self.current_question_pack = 1;
                 }
+				if ui.button("Nhà nước và Pháp luật đại cươngcương").clicked() {
+					self.all_questions = serde_json::from_str(QUESTIONS_PLDC_STR).unwrap();
+					self.current_question_pack = 2;
+				}
             });
             ui.checkbox(&mut self.randomized_question, "Tráo câu hỏi");
             ui.checkbox(&mut self.randomized_answers, "Tráo đáp án");
@@ -172,6 +177,7 @@ impl eframe::App for TemplateApp {
                 match self.current_question_pack {
                     0 => self.all_questions = serde_json::from_str(QUESTIONS_TRIET_STR).unwrap(),
                     1 => self.all_questions = serde_json::from_str(QUESTIONS_LTNC_STR).unwrap(),
+					2 => self.all_questions = serde_json::from_str(QUESTIONS_PLDC_STR).unwrap(),
                     _ => {}
                 }
                 self.loaded_questions = vec![];
