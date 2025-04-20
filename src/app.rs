@@ -210,12 +210,15 @@ impl eframe::App for TemplateApp {
                             }
                             question.answer = new_answer;
                         }
-                        self.loaded_questions.push(question);
+                        self.loaded_questions.push(question.clone());
+                        self.my_question_choices.push(vec![0; question.choices.len()]);
                     }
                 } else {
                     for i in self.from_question..self.to_question {
+                        let question = self.all_questions[i as usize].clone();
                         self.loaded_questions
-                            .push(self.all_questions[i as usize].clone());
+                            .push(question.clone());
+                        self.my_question_choices.push(vec![0; question.choices.len()]);
                     }
                 }
                 self.begin_quiz = true;
@@ -229,19 +232,21 @@ impl eframe::App for TemplateApp {
                             let mut additional_text = "";
                             for j in question.answer.clone() {
                                 // println!("{:#?} {:#?}", j, self.my_question_choices[i]);
-                                if self.my_question_choices[i][j] != 1 {
-                                    additional_text = "[TRẢ LỜI SAI] ";
-                                    break;
+                                if self.my_question_choices[i].len() == 1 {
+                                    if self.my_question_choices[i][0] != j as usize {
+                                        additional_text = "[TRẢ LỜI SAI] ";
+                                        break;
+                                    }
+                                } else {
+                                    if self.my_question_choices[i][j] != 1 {
+                                        additional_text = "[TRẢ LỜI SAI] ";
+                                        break;
+                                    }
                                 }
                             }
                             ui.label(format!("{}{}", additional_text, &question.question));
                         } else {
                             ui.label(&question.question);
-                        }
-                        
-                        // Initialize my_question_choices for this question if it doesn't exist yet
-                        if i >= self.my_question_choices.len() {
-                            self.my_question_choices.push(vec![0; question.choices.len()]);
                         }
                         
                         if question.answer.len() == 1 {
@@ -291,8 +296,14 @@ impl eframe::App for TemplateApp {
                             // println!("{:#?}", self.my_question_choices[i]);
                             // println!("{:#?}", self.loaded_questions[i]);
                             for j in self.loaded_questions[i].answer.clone() {
-                                if self.my_question_choices[i][j] == 1 {
-                                    count += 1;
+                                if self.my_question_choices[i].len() == 1 {
+                                    if self.my_question_choices[i][0] == j as usize {
+                                        self.my_score += 1;
+                                    }
+                                } else {
+                                    if self.my_question_choices[i][j] == 1 {
+                                        count += 1;
+                                    }
                                 }
                             }
                             if count == self.loaded_questions[i].answer.len() as i32 {
