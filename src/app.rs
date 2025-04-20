@@ -140,7 +140,7 @@ impl eframe::App for TemplateApp {
                     self.all_questions = serde_json::from_str(QUESTIONS_LTNC_STR).unwrap();
                     self.current_question_pack = 1;
                 }
-				if ui.button("Nhà nước và Pháp luật đại cươngcương").clicked() {
+				if ui.button("Nhà nước và Pháp luật đại cương").clicked() {
 					self.all_questions = serde_json::from_str(QUESTIONS_PLDC_STR).unwrap();
 					self.current_question_pack = 2;
 				}
