@@ -214,7 +214,7 @@ impl eframe::App for TemplateApp {
                         self.my_question_choices.push(vec![0; question.choices.len()]);
                     }
                 } else {
-                    for i in self.from_question..self.to_question {
+                    for i in self.from_question..(self.to_question + 1) {
                         let question = self.all_questions[i as usize].clone();
                         self.loaded_questions
                             .push(question.clone());
