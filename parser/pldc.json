@@ -1452,7 +1452,7 @@
         "choices": [
             "Giám đốc Đại học Quốc gia Hà Nội là do Bộ trưởng Bộ giáo dục và đào tạo bổ nhiệm, miễn nhiệm nên phải chịu trách nhiệm trước Bộ trưởng Bộ giáo dục cũng như trước Thủ tướng Chính phủ",
             "Giám đốc Đại học Quốc gia Hà Nội chỉ phải chịu trách nhiệm trước Bộ trưởng Bộ giáo dục đào tạo",
-            null,
+            "",
             "Giám đốc Đại học Quốc gia Hà Nội là do Thủ tướng Chính phủ bổ nhiệm, miễn nhiệm do đó Giám đốc Đại học Quốc gia Hà Nội phải chịu trách nhiệm trước Thủ tướng Chính phủ"
         ],
         "answer": [
@@ -1606,10 +1606,10 @@
     {
         "question": "Nhà nước nào dưới đây KHÔNG theo chính thể cộng hòa",
         "choices": [
-            null,
+            "",
             "Nhà nước Anh là nhà nước quân chủ tương đối",
-            null,
-            null
+            "",
+            ""
         ],
         "answer": [
             1
@@ -2265,7 +2265,7 @@
         "choices": [
             "Học thuyết pháp lý là loại nguồn pháp luật của không ít quốc gia",
             "Học thuyết pháp lý là loại nguồn của pháp luật Việt Nam hiện nay",
-            null,
+            "",
             "Học thuyết pháp lý có vai trò quan trọng trong đời sống pháp luật của rất nhiều quốc gia",
             "Tập quán pháp luật là loại nguồn của pháp luật Việt Nam hiện nay"
         ],

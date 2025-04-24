@@ -140,10 +140,10 @@ impl eframe::App for TemplateApp {
                     self.all_questions = serde_json::from_str(QUESTIONS_LTNC_STR).unwrap();
                     self.current_question_pack = 1;
                 }
-				if ui.button("Nhà nước và Pháp luật đại cương").clicked() {
-					self.all_questions = serde_json::from_str(QUESTIONS_PLDC_STR).unwrap();
-					self.current_question_pack = 2;
-				}
+                if ui.button("Nhà nước và Pháp luật đại cương").clicked() {
+                    self.all_questions = serde_json::from_str(QUESTIONS_PLDC_STR).unwrap();
+                    self.current_question_pack = 2;
+                }
             });
             ui.checkbox(&mut self.randomized_question, "Tráo câu hỏi");
             ui.checkbox(&mut self.randomized_answers, "Tráo đáp án");
@@ -160,12 +160,12 @@ impl eframe::App for TemplateApp {
                 ui.label("Từ câu ");
                 ui.add(egui::Slider::new(
                     &mut self.from_question,
-                    1..=(self.all_questions.len() as i32),
+                    1..=(self.all_questions.len() as i32) - 1,
                 ));
                 ui.label("đến câu ");
                 ui.add(egui::Slider::new(
                     &mut self.to_question,
-                    1..=(self.all_questions.len() as i32),
+                    1..=(self.all_questions.len() as i32) - 1,
                 ));
             });
             if ui
@@ -177,7 +177,7 @@ impl eframe::App for TemplateApp {
                 match self.current_question_pack {
                     0 => self.all_questions = serde_json::from_str(QUESTIONS_TRIET_STR).unwrap(),
                     1 => self.all_questions = serde_json::from_str(QUESTIONS_LTNC_STR).unwrap(),
-					2 => self.all_questions = serde_json::from_str(QUESTIONS_PLDC_STR).unwrap(),
+                    2 => self.all_questions = serde_json::from_str(QUESTIONS_PLDC_STR).unwrap(),
                     _ => {}
                 }
                 self.loaded_questions = vec![];
@@ -190,19 +190,22 @@ impl eframe::App for TemplateApp {
                         if self.randomized_answers {
                             // Clone the original choices
                             let original_choices = question.choices.clone();
-                            
+
                             // Create a mapping of original indices (0, 1, 2, ...)
                             let mut indices: Vec<usize> = (0..original_choices.len()).collect();
-                            
+
                             // Shuffle the indices
                             for i in 0..indices.len() {
                                 let j = random::randint(0, (indices.len() - i) as u64) as usize + i;
                                 indices.swap(i, j);
                             }
-                            
+
                             // Rearrange choices according to shuffled indices
-                            question.choices = indices.iter().map(|&i| original_choices[i].clone()).collect();
-                            
+                            question.choices = indices
+                                .iter()
+                                .map(|&i| original_choices[i].clone())
+                                .collect();
+
                             // Update answer indices based on the mapping
                             let mut new_answer = Vec::new();
                             for &old_idx in &question.answer {
@@ -217,14 +220,18 @@ impl eframe::App for TemplateApp {
                             question.answer = new_answer;
                         }
                         self.loaded_questions.push(question.clone());
-                        self.my_question_choices.push(vec![0; question.choices.len()]);
+                        self.my_question_choices
+                            .push(vec![0; question.choices.len()]);
                     }
                 } else {
+                    if self.from_question > self.to_question {
+                        self.from_question = self.to_question;
+                    }
                     for i in self.from_question..(self.to_question + 1) {
                         let question = self.all_questions[i as usize].clone();
-                        self.loaded_questions
-                            .push(question.clone());
-                        self.my_question_choices.push(vec![0; question.choices.len()]);
+                        self.loaded_questions.push(question.clone());
+                        self.my_question_choices
+                            .push(vec![0; question.choices.len()]);
                     }
                 }
                 self.begin_quiz = true;
@@ -254,7 +261,7 @@ impl eframe::App for TemplateApp {
                         } else {
                             ui.label(&question.question);
                         }
-                        
+
                         if question.answer.len() == 1 {
                             for j in 0..question.choices.len() {
                                 ui.radio_value(
