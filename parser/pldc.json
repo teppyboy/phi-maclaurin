@@ -1446,5 +1446,1084 @@
         "answer": [
             1
         ]
+    },
+    {
+        "question": "N nói Giám đốc Đại học Quốc gia Hà Nội là do Thủ tướng Chỉnh phủ bổ nhiệm, miễn nhiệm, do đó Giám đốc Đại học Quốc gia Hà nội phải chịu trách nghiệm trước Thủ tướng Chính phủ. K nói Đại học Quốc gia Hà nọi cũng giống như các Đại học khác do Bộ Gióa dục và đào tạo quản lý nên Giám dốc Đại học Quốc gia Hà Nội là do Bộ trưởng Bộ giáo dục và đào tạo bổ nhiệm, miễn nhiệm. Vậy đáp án đúng là",
+        "choices": [
+            "Giám đốc Đại học Quốc gia Hà Nội là do Bộ trưởng Bộ giáo dục và đào tạo bổ nhiệm, miễn nhiệm nên phải chịu trách nhiệm trước Bộ trưởng Bộ giáo dục cũng như trước Thủ tướng Chính phủ",
+            "Giám đốc Đại học Quốc gia Hà Nội chỉ phải chịu trách nhiệm trước Bộ trưởng Bộ giáo dục đào tạo",
+            null,
+            "Giám đốc Đại học Quốc gia Hà Nội là do Thủ tướng Chính phủ bổ nhiệm, miễn nhiệm do đó Giám đốc Đại học Quốc gia Hà Nội phải chịu trách nhiệm trước Thủ tướng Chính phủ"
+        ],
+        "answer": [
+            3
+        ]
+    },
+    {
+        "question": "X nói Việt Nam là nhà nước đơn nhất, trong nhà nước đơn nhất thì có lãnh thổ chung thống nhất, có các đơn vị hành chính - lãnh thổ cấu thành nhà nước không có chủ quyền riêng. Y nói các tỉnh hoặc thành phố trực thuộc trung ương hiện nay vẫn có chủ quyền, có quyền quyết định về việc phát triển kinh tế - xã hội của địa phương đó. Đáp án đúng là",
+        "choices": [
+            "Các đơn vị hành chính - lãnh thổ cấu thành nhà nước Việt Nam có chủ quyền riêng trong một số trường hợp đặc biệt",
+            "Các đơn vị hành chính - lãnh thổ cấu thành nhà nước có chủ quyền riêng, có quyền quyết định về việc phát triển kinh tế - xã hội của địa phương đó",
+            "Các đơn vị hành chính - lãnh thổ cấu thành nhà nước Việt Nam chỉ có chủ quyền riêng trong phạm vi đơn vị hành chính - lãnh thổ đó",
+            "Các đơn vị hành chính - lãnh thổ cấu thành nhà nước Việt Nam không có chủ quyền riêng"
+        ],
+        "answer": [
+            3
+        ]
+    },
+    {
+        "question": "Xem Tivi, C thấy ở Mỹ có bầu cử Tổng thống và ở Pháp cũng có bầu cử Tổng thống C nói rằng cả Mỹ và Pháp đều thuộc chính thể Cộng hòa Tổng thống. Vậy đáp án đúng là",
+        "choices": [
+            "Mỹ thuộc chính thể Cộng hòa Tổng thống, Pháp thuộc chính thể cộng hòa đại nghị",
+            "Mỹ thuộc chính thể Cộng hòa Tổng thống, nhưng Pháp không phải",
+            "Mỹ thuộc chính thể Cộng hòa đại nghị, Pháp thuộc chính thể cộng hòa lưỡng tính",
+            "Pháp thuộc chính thể Cộng hòa đại nghị, nhưng Mỹ không phải"
+        ],
+        "answer": [
+            1
+        ]
+    },
+    {
+        "question": "Chủ thể của quan hệ pháp luật là gì?",
+        "choices": [
+            "Là các tổ chức, cá nhân có đủ năng lực chủ thể theo quy định của pháp luật, tham gia vào quan hệ pháp luật",
+            "Là tất cả các tổ chức, cá nhân tham gia vào quan hệ pháp luật",
+            "Bất kỳ người nào cũng là chủ thể của quan hệ pháp luật",
+            "Là các tổ chức, cá nhân tham gia vào quan hệ pháp luật, trong đó phải có ít nhất một bên là cơ quan nhà nước có thẩm quyền"
+        ],
+        "answer": [
+            0
+        ]
+    },
+    {
+        "question": "Loại quy tắc xử sự nào sau đây là quy phạm pháp luật",
+        "choices": [
+            "Những quy tắc xử sự được Nhà nước ban hành hoặc thừa nhận và bảo đảm thực hiện",
+            "Những thói quen được hình thành từ lâu đời, được cộng đồng thừa nhận",
+            "Các chuẩn mực ứng xử chung giữa người với người trong đời sống xã hội được cộng đồng thừa nhận và tôn trọng",
+            "Những quy tắc tôn giáo"
+        ],
+        "answer": [
+            0
+        ]
+    },
+    {
+        "question": "Quan hệ pháp luật pháp sinh, thay đổi hoặc chấm dứt khi có điều kiện gì",
+        "choices": [
+            "Chỉ cần có chủ thể tham gia quan hệ và chủ thể đó có đủ năng lực chủ thể",
+            "Chỉ cần có sự kiện pháp lý",
+            "Phải có đủ cả ba điều kiện trên",
+            "Chỉ cần có quy phạm pháp luật điều chỉnh"
+        ],
+        "answer": [
+            2
+        ]
+    },
+    {
+        "question": "\"Năng lực pháp luật\" của chủ thể trong quan hệ pháp luật phụ thuộc vào yếu tố nào sau đây?",
+        "choices": [
+            "Phụ thuộc vào trình độ văn hóa",
+            "Phụ thuộc vào phong tục, tập quán",
+            "Phụ thuộc vào pháp luật của từng quốc gia",
+            "Phụ thuộc vào quan điểm đạo đức"
+        ],
+        "answer": [
+            2
+        ]
+    },
+    {
+        "question": "\"Quy phạm cấm đoán\" là quy phạm thế nào?",
+        "choices": [
+            "Là loại quy phạm đặt ra một việc cụ thể và buộc các chủ thể khi tham gia vào quan hệ pháp luật phải làm việc đó",
+            "Cả ba nhận định trên đều sai",
+            "Là loại quy phạm đặt ra một việc cụ thể và cấm các chủ thể khi tham gia vào quan hệ pháp luật phải làm việc đó",
+            "Là loại quy phạm đặt ra một việc cụ thể và cho phép các chủ thể khi tham gia vào quan hệ pháp luật có quyền lựa chọn hoặc không làm việc đó"
+        ],
+        "answer": [
+            2
+        ]
+    },
+    {
+        "question": "Áp dụng pháp luật",
+        "choices": [
+            "Là hình thức thực hiện pháp luật của các cơ quan nhà nước, nhà chức trách có thẩm quyền hoặc tổ chức xã hội được nhà nước trao quyền",
+            "Là hình thức thực hiện pháp luật, trong đó các chủ thể pháp luật tiến hành các hoạt động mà pháp luật buộc phải làm",
+            "Là hình thức pháp luật, trong đó các chủ thể pháp luật tiến hành những hoạt động mà pháp luật cho phép",
+            "Là hình thức thực hiện pháp luật, trong đó các chủ thể pháp luật kiềm chế không tiến hành các hoạt động mà pháp luật cấm"
+        ],
+        "answer": [
+            0
+        ]
+    },
+    {
+        "question": "Năng lực hành vi của chủ thể trong quan hệ pháp luật phụ thuộc vào yếu tố nào sau đây?",
+        "choices": [
+            "Phụ thuộc vào truyền thống văn hóa dân tộc của từng quốc gia",
+            "Phụ thuộc vào hoàn cảnh kinh tế của chủ thể",
+            "Phụ thuộc vào độ tuổi, tình trạng sức khỏe, trình độ nhận thức của chủ thể",
+            "Phụ thuộc vào pháp luật của từng quốc gia"
+        ],
+        "answer": [
+            2
+        ]
+    },
+    {
+        "question": "Đặc điểm nào dưới đây KHÔNG phải đặc điểm của Nhà nước đơn nhất",
+        "choices": [
+            "Nhà nước có một bộ máy nhà nước, bao gồm hệ thống thống nhất các cơ quan nhà nước từ trung ương xuống địa phương",
+            "Các đơn vị hành chính - lãnh thổ hợp thành nhà nước không có chủ quyền riêng",
+            "Công dân của nhà nước có một quốc tịch",
+            "Nhà nước có hai hệ thống pháp luật"
+        ],
+        "answer": [
+            3
+        ]
+    },
+    {
+        "question": "Các lĩnh vực nào dưới đây KHÔNG thuộc lĩnh vực của chức năng xã hội",
+        "choices": [
+            "Môi trường",
+            "Y tế",
+            "Khoa học công nghệ",
+            "Mua bán vũ khí"
+        ],
+        "answer": [
+            3
+        ]
+    },
+    {
+        "question": "Nhà nước nào dưới đây KHÔNG theo chính thể cộng hòa",
+        "choices": [
+            "Nga",
+            "Campuchia",
+            "Pháp",
+            "Đức"
+        ],
+        "answer": [
+            1
+        ]
+    },
+    {
+        "question": "Nhà nước nào dưới đây KHÔNG theo chính thể cộng hòa",
+        "choices": [
+            null,
+            "Nhà nước Anh là nhà nước quân chủ tương đối",
+            null,
+            null
+        ],
+        "answer": [
+            1
+        ]
+    },
+    {
+        "question": "Nội dung nào sau đây KHÔNG đúng với chế độ Cộng hòa Tổng thống",
+        "choices": [
+            "Tổng thống là người đứng đầu nhánh hành pháp, không phải là nguyên thủ quốc gia",
+            "Tổng thống không phải chịu trách nhiệm trước Nghị viện",
+            "Nghị viện vầ Tổng thống do dân bầu",
+            "Tổng thống có quyền phủ quyết các dự luật mà Nghị viện đã thông qua"
+        ],
+        "answer": [
+            0
+        ]
+    },
+    {
+        "question": "Nhà nước nào dưới đây KHÔNG phải nhà nước liên bang",
+        "choices": [
+            "Đức",
+            "Pháp",
+            "Nga",
+            "Ấn Độ"
+        ],
+        "answer": [
+            1
+        ]
+    },
+    {
+        "question": "Xem Tivi, A thấy Tổng bí thư ngồi ở hàng ghế đại biểu quốc hội. A kết luật: Bộ máy nhà nước bao gồm Đảng cộng sản Việt Nam. B phản đối nói rằng: Tổng bí thư ngồi đó với vai trò Đại biểu Quốc hội. Trong bộ máy nhà nuosc không bao gồm Đảng cộng sản Việt Nam. Đáp án đúng là",
+        "choices": [
+            "Bộ máy nhà nước bao gồm Đảng cộng sản Việt Nam",
+            "Bộ máy nhà nước không bao gồm Đảng cộng sản Việt Nam",
+            "Bộ máy nhà nước không bao gồm Đảng cộng sản Việt Nam, trừ chức danh Tổng bí thư",
+            "Bộ máy nhà nước bao gồm Đảng cộng sản Việt Nam và các tổ chức chính trị - xã hội khác"
+        ],
+        "answer": [
+            1
+        ]
+    },
+    {
+        "question": "A nói ở Việt Nam chỉ có giáo dục và đào tạo là quốc sách hàng đầu. B nói phát triển khao học công nghệ cũng là quốc sách hàng đầu, giữ vai trò quan trọng trong phát triển kinh tế\n- xã hội của đất nước. Vậy đáp án đúng là",
+        "choices": [
+            "Cả giáo dục đào tạo và y tế là quốc sách hàng đầu",
+            "Chỉ có giáo dục và đào tạo là quốc sách hàng đầu",
+            "Cả giáo dục đào tạo và khoa học công nghệ đều là quốc sách hàng đầu",
+            "Y tế mới là quốc sách hàng đầu"
+        ],
+        "answer": [
+            2
+        ]
+    },
+    {
+        "question": "Quy phạm pháp luật đầy đủ được cấu thành bởi các bộ phận nào?",
+        "choices": [
+            "Quy phạm \"bắt buộc\" là quy phạm như thế nào",
+            "Chỉ gồm hai bộ phận bắt buộc là \"giả định\" và \"chế tài\"",
+            "Gồm 3 bộ phận là: giả định, quy định và chế tài",
+            "Chỉ gồm hai bộ phận bắt buộc là \"quy định\" và \"chế tài\""
+        ],
+        "answer": [
+            2
+        ]
+    },
+    {
+        "question": "Quy phạm pháp luật gồm những loại nào?",
+        "choices": [
+            "Chỉ có một loại là \"quy phạm lựa chọn\"",
+            "Có thể bao gồm tất cả các loại quy phạm nêu trên",
+            "Chỉ có một loại là \"quy phạm cấm đoán\"",
+            "Chỉ có một loại là \"quy phạm bắt buộc\""
+        ],
+        "answer": [
+            1
+        ]
+    },
+    {
+        "question": "Năng lực hành vi của chủ thể trong quan hệ pháp luật được hiểu như nào?",
+        "choices": [
+            "Cả ba nhận định trên đều sai",
+            "Là khả năng của chủ thể bằng chính hành vi của mình để được tham gia vào quan hệ pháp luật đó",
+            "Là khả năng của chủ thể được pháp luật quy định và bằng chính hành vi của mình để tham gia vào quan hệ pháp luật đó",
+            "Là khả năng của chủ thể được pháp luật quy định để được tham gia vào quan hệ pháp luật đó"
+        ],
+        "answer": [
+            1
+        ]
+    },
+    {
+        "question": "Khái niệm quyền chủ thể được hiểu là:",
+        "choices": [
+            "Cá nhân, tổ chức đáp ứng được các điều kiện do pháp luật quy định và tham gia vào quan hệ pháp luật",
+            "Là khả năng mà nhà nước thừa nhận cho các cá nhân, tổ chúc bằng hành vi của mình tự xác lập và thực hiện các quyền và nghĩa vụ pháp lý",
+            "Là khả năng của chủ thể được xử sự theo những cách thức nhất định mà pháp luật cho phép",
+            "Là khả năng có quyền, nghĩa vụ pháp lý do nhà nước quy định cho các cá nhân, tổ chức nhất định"
+        ],
+        "answer": [
+            2
+        ]
+    },
+    {
+        "question": "Quy phạm pháp luật là",
+        "choices": [
+            "Quy tắc của một tổ chức",
+            "Quy tắc của một nhóm người",
+            "Quy tắc xử sự trong xã hội",
+            "Quy tắc xử sự do Nhà nước ban hành hoặc thừa nhận và bảo đảm thực hiện"
+        ],
+        "answer": [
+            3
+        ]
+    },
+    {
+        "question": "Trong các câu sau, câu nào là đúng",
+        "choices": [
+            "Chủ quyền quốc gia là quyền tối cao của nhà nước về đối nội và độc lập về đối ngoại",
+            "Chủ quyền quốc gia cũng có ở các tổ chức xã hội khác",
+            "Chủ quyền quốc gia chỉ giới hạn trong phạm vi lãnh thổ từng quốc gia",
+            "Chủ quyền quốc gia chỉ đặt ra đối với việc bảo vệ biên giới quốc gia"
+        ],
+        "answer": [
+            0
+        ]
+    },
+    {
+        "question": "Phương pháp nào dưới đây KHÔNG phải phương pháp thực hiện chức năng nhà nước",
+        "choices": [
+            "Giáo dục, thuyết phục",
+            "Tra tấn",
+            "Khen thưởng",
+            "Cưỡng chế"
+        ],
+        "answer": [
+            1
+        ]
+    },
+    {
+        "question": "Đâu không phải là loại nguồn pháp luật của Việt Nam hiện nay?",
+        "choices": [
+            "Văn bản quy phạm",
+            "Tập quán pháp",
+            "Lẽ công bằng",
+            "Điều ước quốc tế"
+        ],
+        "answer": [
+            3
+        ]
+    },
+    {
+        "question": "Trong các trường hợp dưới đây, trường hợp nào pháp luật thể hiện chức năng điều chỉnh",
+        "choices": [
+            "Tất cả các trường hợp đều không thể hiện chức năng điều chỉnh của pháp luật",
+            "Ngày 9.11.2023, anh A bạo hành vợ và bị Ủy ban nhân dân xã lập biên bản xử phạt",
+            "Anh A mời anh B và anh C ăn cơm trưa. Anh C đề nghị là nên uống một chút bia cho có không khí. Anh A nói là không nên vì bây giờ Nghị định 100 năm 2021 của Chính phủ thực hiện rất nghiêm chỉnh và hành vi vi phạm bị phạt rất nặng. Họ đã ăn cơm trưa vui vẻ cùng nhau mà không cần tới bia",
+            "Học sinh A (17 tuổi) lái ô tô con đến trường và bị cảnh sát giao thông xử lý"
+        ],
+        "answer": [
+            2
+        ]
+    },
+    {
+        "question": "Trong số những nội dung dưới đây nội dung nào KHÔNG thuộc hình thức thực hiện chức năng nhà nước",
+        "choices": [
+            "Xây dựng pháp luật",
+            "Tôn trọng pháp luật",
+            "Thực thi pháp luật",
+            "Bảo vệ pháp luật"
+        ],
+        "answer": [
+            1
+        ]
+    },
+    {
+        "question": "H nói Nhà nước Anh hiện nay là một nhà nước quân chủ, ngôi vua được hình thành bằng phương thức cha truyền con nối. Đây là một nhà nước quân chủ tuyệt đối. M nói nhà nước Anh không phải là nhà nước quân chủ tuyệt đối mà chỉ là nhà nước quân chủ tương đối. Vậy đáp án đúng là:",
+        "choices": [
+            "Nhà nước Anh là nhà nước quân chủ vừa tuyệt đối vừa tương đối",
+            "Nhà nước Anh là nhà nước quân chủ nhị nguyên",
+            "Nhà nước Anh là nhà nước quân chủ tuyệt đối",
+            "Nhà nước Anh là nhà nước quân chủ tương đối"
+        ],
+        "answer": [
+            3
+        ]
+    },
+    {
+        "question": "Nhà nước nào dưới đây KHÔNG theo chính thể Cộng hòa dân chủ xã hội chủ nghĩa",
+        "choices": [
+            "Nam Phi",
+            "Lào",
+            "Bắc Triều Tiên",
+            "Trung Quốc"
+        ],
+        "answer": [
+            0
+        ]
+    },
+    {
+        "question": "K nói chức năng nhà nước chỉ là hoạt động duy nhất của nhà nước. M phản đối chức năng nhà nước, nhưng không loại  trừ sự tham gia của các tổ chức, cá nhân khác. Đáp án đúng là:",
+        "choices": [
+            "Chức năng nhà nước chủ yếu của nhà nước, nhưng không loại trừ sự tham gia của các tổ chức, cá nhân khác",
+            "Chức năng nhà nước chỉ là hoạt động duy nhất của nhà nước",
+            "Chức năng nhà nước là hoạt động chủ yếu của nhà nước, các tổ chức, cá nhân khác không tham gia thực hiện chức năng nhà nước",
+            "Chức năng nhà nước là hoạt động chủ yếu của nhà nước, các tổ chức, cá nhân khác là nhũng chủ thể chỉ chịu sự điều hành của nhà nước"
+        ],
+        "answer": [
+            0
+        ]
+    },
+    {
+        "question": "Khi áp dụng giải quyết một vụ việc thực tiễn, thẩm phán nhận thấy có sự xung đột trong giải quyết cùng một vấn đề. Theo đó, Nghị định mà Chính phủ hướng dẫn Luật lại giải thích  hẹp hơn quy định của Luật, theo bạn, trường hợp này thẩm phán phải",
+        "choices": [
+            "Áp dụng Nghị định bởi đó là văn bản chi tiết hơn, còn Luật là văn bản chung",
+            "thứ t",
+            "Thẩm phán không áp dụng và trả hồ sơ vì thiếu cơ sở pháp lý để giải quyết vụ việc",
+            "Áp dụng theo quy định của Luật"
+        ],
+        "answer": [
+            3
+        ]
+    },
+    {
+        "question": "Nhận định nào sau đây KHÔNG đúng",
+        "choices": [
+            "Án lệ là một loại nguồn pháp luật mới được thừa nhận ở nước ta và đây là lọai nguồn do thẩm phán Tòa án nhân dân tối cao làm ra thông qua hoạt động xét xử của mình",
+            "Án lệ là những lập luận, phán quyết trong bản án, quyết định đã có hiệu lực pháp luật của Tòa án về một vụ việc cụ thể do chủ thể có thẩm quyền lựa chọn, công bố",
+            "Án lệ có hiệu lực áp dụng sau văn bản quy phạm pháp luật",
+            "Án lệ là một trong những nguồn luật trong hệ thống pháp luật Việt Nam hiện đại"
+        ],
+        "answer": [
+            0
+        ]
+    },
+    {
+        "question": "Chấp hành pháp luật được hiểu là",
+        "choices": [
+            "Là hinh thức thực hiện pháp luật, trong đó các chủ thể pháp luật tiến hành các hoạt động mà pháp luật phải làm bằng hành động tích cực",
+            "Là hình thức thực hiện pháp luật, trong đó các chủ thể pháp luật tiến hành những hoạt động mà pháp luật cho phép",
+            "Là hình thức thực hiện pháp luật, trong đó các chủ thể pháp luật kiềm chế không tiến hành các hoạt động mà pháp luật cấm",
+            "Là hình thức thực hiện pháp luật của các cơ quan nhà nước, nhà chức trách có thẩm quyền hoặc tổ chức xã hội được nhà nước trao quyền"
+        ],
+        "answer": [
+            0
+        ]
+    },
+    {
+        "question": "Các hình thức thực hiện pháp luật là:",
+        "choices": [
+            "Áp dụng pháp luật",
+            "Sử dụng pháp luật",
+            "Cả ba đáp án trên",
+            "Tuân thủ pháp luật"
+        ],
+        "answer": [
+            2
+        ]
+    },
+    {
+        "question": "Nội dung nào sau đây KHÔNG đúng với chế độ Cộng hòa lưỡng tính",
+        "choices": [
+            "Tổng thống không thể giải tán Nghị viện",
+            "Tổng thống do dân bầu ra, chỉ đứng đầu nhà nước chứ không đứng đầu chỉnh phủ",
+            "Nghị viện có thể bỏ phiếu không tín nhiệm Chính phủ, buộc Chính phủ giải tán",
+            "Tổng thống có quyền bổ nhiệm thủ tường Chính phủ nhưng phải được Nghị viện phê chuẩn"
+        ],
+        "answer": [
+            0
+        ]
+    },
+    {
+        "question": "Mối quan hệ giữa quan hệ pháp luật là quan hệ xã hội",
+        "choices": [
+            "Cả ba nhận định trên đều sai",
+            "Quan hệ xã hội là một loại quan hệ pháp luật",
+            "Mọi quan hệ pháp luật đều là quan hệ xã hội",
+            "Không phải quan hệ pháp luật nào cũng là quan hệ xã hội"
+        ],
+        "answer": [
+            2
+        ]
+    },
+    {
+        "question": "Chức năng điều chỉnh của pháp luật có nghĩa là:",
+        "choices": [
+            "Pháp luật đưa ra các chế tài để xử lý những hành vi vi phạm",
+            "Pháp luật điều chỉnh hành vi của các cá nhân, tổ chức trong xã hội theo những chuẩn mực mà pháp luật quy định trước.",
+            "Cả A, B và C đều sai",
+            "Pháp luật đưa ra những chuẩn mực để người dân, cộng đồng, doanh nghiệp trên cơ sở đó mà nhận biết được đúng sai, phải trái"
+        ],
+        "answer": [
+            1
+        ]
+    },
+    {
+        "question": "Năng lực của chủ thể trong quan hệ luật pháp được hiểu như thế nào?",
+        "choices": [
+            "Phải có đủ cả năng lực pháp luật và năng lực hành vi mới có năng lực chủ thể là phương án đúng"
+        ],
+        "answer": [
+            0
+        ]
+    },
+    {
+        "question": "Trong số các văn bản sau đây, văn bản nào KHÔNG phải là văn bản quy phạm pháp luật của Việt Nam hiện nay?",
+        "choices": [
+            "Sắc lệnh của chủ tịch nước.",
+            "Pháp lệnh của Ủy ban thường vụ Quốc hội",
+            "Nghị định của chính phủ",
+            "Quyết định của Thủ tướng chính phủ"
+        ],
+        "answer": [
+            0
+        ]
+    },
+    {
+        "question": "Trong số các văn bản sau đây, văn bản nào KHÔNG phải là văn bản quy phạm pháp luật của Việt Nam hiện nay?",
+        "choices": [
+            "Quyết định của Thủ tướng về việc thành lập trường Đại học Luật, Đại học Quốc Gia Hà Nội",
+            "Thông tư của Bộ trưởng.",
+            "Lệnh của chủ tịch nước.",
+            "Luật của quốc hội"
+        ],
+        "answer": [
+            0
+        ]
+    },
+    {
+        "question": "Theo quan điểm của Mác-xít, pháp luật có hai thuộc tính là",
+        "choices": [
+            "Tính phổ quát và tính chuẩn mực",
+            "Tính dân chủ và tính quyền lực.",
+            "Tính phổ biến và quyền lực",
+            "Tính giai cấp và tính xã hội"
+        ],
+        "answer": [
+            3
+        ]
+    },
+    {
+        "question": "Trong các nhận định dưới đây, nhận định nào là Sai? Tổ chức quyền lực trong nhà nước pháp quyền là:",
+        "choices": [
+            "Quyền lực nhà nước được phân chia thành lập pháp, hành pháp, tư pháp và các nhánh quyền lực đó độc lập với nhau về vi phạm thẩm quyền, chức năng nhiệm vụ và phương pháp hoạt động.",
+            "Quyền lực nhà nước được phân chia thành lập pháp, hành pháp, tư pháp và các nhánh quyền lực đó độc lập nhưng có sự phối hợp.",
+            "Các nhánh quyền lực có sự kiểm soát và đối trọng lẫn nhau.",
+            "Quyền lực nhà nước được phân chia thành lập pháp, hành pháp, tư pháp và các nhánh quyền lực đó hoàn toàn độc lập"
+        ],
+        "answer": [
+            3
+        ]
+    },
+    {
+        "question": "Trong các nhận định dưới đây, nhận định nào là Sai:",
+        "choices": [
+            "Mọi cá nhân đều có quyền phản biện các văn bản pháp luật",
+            "Các tổ chức trong xã hội có quyền góp ý xây dựng pháp luật khi có nhà nước thông báo.",
+            "Các cá nhân, các tổ chức trong xã hội không có quyền tham gia xây dựng tổ chức pháp luật.",
+            "Tất cả các cá nhân, các tổ chức trong xã hội đều có quyền tham gia xây dựng pháp luật"
+        ],
+        "answer": [
+            2
+        ]
+    },
+    {
+        "question": "Trong các câu sau đây, câu nào là Đúng?",
+        "choices": [
+            "Quyền lực nhà nước là loại hình quyền lực chính trị duy nhất",
+            "Quyền lực nhà nước là loại hình quyền lực tinh thần duy nhất",
+            "Quyền lực nhà nước là một trong những loại hình của quyền lực chính trị có tính chất đặc biệt",
+            "Quyền lực nhà nước là loại hình quyền lực kinh tế duy nhất"
+        ],
+        "answer": [
+            2
+        ]
+    },
+    {
+        "question": "Trong số các đáp án dưới đây, đáp án nào đúng?",
+        "choices": [
+            "Để thụ hưởng quyền con người, cá nhân cần có đầy đủ năng lực hành vi dân sự và sự đồng ý của một chính phủ nào đó",
+            "Quyền con người không gì khác là quyền công dân.",
+            "Để thụ hưởng các quyền cơ bản của con người, cá nhân cần phải chứng minh có quốc tịch của một quốc gia xác định.",
+            "Để thụ hưởng các quyền cơ bản của con người thì không phải phụ thuộc vào yếu tố quốc tịch"
+        ],
+        "answer": [
+            3
+        ]
+    },
+    {
+        "question": "Trong các nhận định dưới đây, nhận định nào sai?",
+        "choices": [
+            "Cải cách thủ tục hành chính mang lại lợi ích cho doanh nghiệp thuộc mọi loại hình sở hữu.",
+            "Cải cách thủ tục hành chính mang lại lợi ích kinh tế và lợi ích tinh thần cho các nhân, tổ chức.",
+            "Cải cách thủ tục hành chính mang lại lợi ích tinh thần cho các nhân, tổ chức",
+            "Cải cách thủ tục hành chính chỉ mang laị lợi ích cho cá nhân, tổ chức và không có ích cho nhà nước, xã hội"
+        ],
+        "answer": [
+            3
+        ]
+    },
+    {
+        "question": "Trong các nhận định dưới đây, nhận định nào là SAI",
+        "choices": [
+            "Quyền tư pháp là quyền xét xử bởi chủ thể là tòa án và các cơ quan nhà nước khác.",
+            "Nhiệm vụ của quyền tư pháp là đảm bảo sự áp dụng pháp luật đúng đắn bảo vệ quyền lợi con người, đảm bảo công lý.",
+            "Độc lập tư pháp là một trong các điều kiện cần có của nhà nước pháp quyền",
+            "Quyền tư pháp là quyền xét xử bởi chủ thể duy nhất bởi các tòa án"
+        ],
+        "answer": [
+            0
+        ]
+    },
+    {
+        "question": "Sử dụng pháp luật",
+        "choices": [
+            "Là hình thức thực hiện pháp luật, trong đó các chủ thể pháp luật kiềm chế không tiến hành các hoạt động mà pháp luật cấm",
+            "Là hình thức thực hiện pháp luật trong đó các chủ thể pháp luật tiến hành những hoạt động mà pháp luật cho phép",
+            "Gì gì đó nhưng k phải đáp án",
+            "Là hình thức thực hiện pháp luật, trong đó các chủ thể pháp luật tiến hành các hoạt động mà pháp luật buộc pháp luật"
+        ],
+        "answer": [
+            1
+        ]
+    },
+    {
+        "question": "\"Năng lực pháp luật\" của chủ thể trong quan hệ pháp luật được hiểu như thế nào?",
+        "choices": [
+            "Là khả năng của chủ thể bằng chính hành vi của mình để tham gia vào quan hệ pháp luật đó",
+            "Là khả năng của chủ thể được pháp luật quy định và bằng chính hành vi của mình để tham gia vào quan hệ pháp luật đó",
+            "Cả ba nhận định trên đều sai",
+            "Là khả năng của chủ thể được pháp luật quy định để được tham gia vào quan hệ pháp luật đó"
+        ],
+        "answer": [
+            3
+        ]
+    },
+    {
+        "question": "Nội dung nào sau đây KHÔNG ĐÚNG với chế độ Cộng hoà đại nghị",
+        "choices": [
+            "Người đứng đầu Chính phủ do dân bầu trực tiếp",
+            "Nghị viện do dân bầu",
+            "Nghị viện có thể bị giải tán",
+            "Chính phủ chịu trách nhiệm trước Nghị viện"
+        ],
+        "answer": [
+            0
+        ]
+    },
+    {
+        "question": "cúa Quốc hội, nên E kết luận Chủ tịch Quốc hội là người chủ tọa các phiên họp của Quốc hội và Uỷ ban thường vụ Quốc hội; tổ chức thực hiện quan hệ đối ngoại của Quốc hội; giữa quan hệ với các đại biểu Quốc hội. G phản đối nói rằng Chủ\ntịch Quốc hội là người có vị trí cao nhất, đứng đầu và lãnh đạo, quyết định mọi hoạt động của Quốc hội. Vậy đáp án",
+        "choices": [
+            "Chủ tịch Quốc hội là người chỉ thực hiện tổ chức hoạt động lập hiến, lập pháp của Quốc hội",
+            "Chủ tịch Quốc hội là người chỉ thực hiện các hoạt động đối ngoại của Quốc hội",
+            "Chủ tịch Quốc hội là người có vị trí cao nhất, lãnh đạo mọi hoạt động của Quốc hội",
+            "Chủ tịch Quốc hội là người chủ toạ các phiên họp của Quốc hội và Uỷ ban thường vụ Quốc hội"
+        ],
+        "answer": [
+            3
+        ]
+    },
+    {
+        "question": "Thứ tự nào đúng trong các câu dưới đây?",
+        "choices": [
+            "Cả B, C, D đều sai",
+            "Hiến pháp, Pháp lệnh, Nghị quyết của Quốc hội",
+            "Bộ luật, Thông tư, Pháp lệnh",
+            "Luật, Nghị định, Thông tư"
+        ],
+        "answer": [
+            3
+        ]
+    },
+    {
+        "question": "Một trong những bảo đảm thực hiện quan trọng nhất của pháp luật hiện đại là bảo đảm bằng",
+        "choices": [
+            "Quyền lực nhà nước",
+            "Sức mạnh",
+            "Bạo lực cách mạng",
+            "Vũ lực"
+        ],
+        "answer": [
+            0
+        ]
+    },
+    {
+        "question": "Trong các câu sau, câu nào là Đúng:",
+        "choices": [
+            "Quyền lực nhà nước có hiệu lực áp dụng chỉ đối với các cá nhân có vi phạm pháp luật",
+            "Quyền lực nhà nước có hiệu lực áp dụng đối với tất cả mọi cá nhân, tổ chức sinh sống trong phạm vi lãnh thổ của nhà nước",
+            "Quyền lực nhà nước có hiệu lực áp dụng đối với các cá nhân đã chấp hành các quy định pháp luật về đóng thuế",
+            "Quyền lực nhà nước có hiệu lực áp dụng đối với các cá nhân đủ 18 tuổi trở lên"
+        ],
+        "answer": [
+            1
+        ]
+    },
+    {
+        "question": "Trong cá nhận định dưới đây, nhận định nào là Đúng:",
+        "choices": [
+            "Nhà nước pháp quyền là một kiểu nhà nước trong lịch sử, xuất hiện tiếp sau các nhà nước chiếm hữu nô lệ, phong kiến, tư sản, xã hội chủ nghĩa",
+            "Nhà nước pháp quyền là một kiểu nhà nước trong lịch sử, thể hiện bản chất, vai trò và các điều kiện phát sinh, phát triển của nhà nước trong một hình thái kinh tế xã hội nhất định",
+            "Nhà nước pháp quyền là phương thức tổ chức quyền lực nhà nước tiến bộ mà bất kì nhà nước nào, thể chế chính trị nào muốn đạt đến trình độ văn minh đều phải hướng tới",
+            "Nhà nước pháp quyền là phương thức tổ chức quyền lực nhà nước chỉ xuất hiện ở các quốc gia phương Tây"
+        ],
+        "answer": [
+            2
+        ]
+    },
+    {
+        "question": "Trong các câu sau đây, câu nào là Đúng:",
+        "choices": [
+            "Chỉ có nhà nước mới có đặc trưng về lãnh thổ và dân cư, quản lý dân cư theo các đơn vị hành chính lãnh thổ",
+            "Tổ chức công đoàn cũng có đặc trưng về lãnh thổ và dân cư",
+            "Các tổ chức nghề nghiệp cũng có đặc trưng về lãnh thổ và dân cư",
+            "Tổ chức dòng họ cũng có đặc trưng về lãnh thổ và dân cư như nhà nước"
+        ],
+        "answer": [
+            0
+        ]
+    },
+    {
+        "question": "Trong các nhân định dưới đây, nhận định nào là Sai? Phương hướng xây dựng và hoàn thiện nhà nước pháp quyền XHCN Việt Nam là:",
+        "choices": [
+            "Hoàn thiện hệ thống pháp luật; thực hiện pháp luật nghiêm minh, nhất quán; thượng tôn Hiến pháp và pháp luật,",
+            "Tôn trọng, bảo đảm, bảo vệ quyền con người, quyền công dân;",
+            "Đổi mới hoạt động của các doanh nghiệp, tổ chức hoạt động trên lãnh thổ Việt Nam",
+            "Tổ chức quyền lực nhà nước thống nhất, có sự phân công rành mạch, phối hợp chặt chẽ, kiểm soát hiệu quả;"
+        ],
+        "answer": [
+            2
+        ]
+    },
+    {
+        "question": "Trong các câu sau, câu nào là Đúng:",
+        "choices": [
+            "Nhà nước có vai trò, trách nhiệm bảo vệ các quyền, tự do và lợi ích hợp pháp, chính đáng của con người và công dân",
+            "Nhà nước không có trách nhiệm bảo vệ quyền của những công dân đã vi phạm pháp luật",
+            "Nhà nước không có trách nhiệm bảo vệ quyền, lợi ích chính đáng của các cá nhan có quốc tịch của quốc gia khác",
+            "Nhà nước có vai trò, trách nhiệm bảo vệ các quyền hiến định chỉ đối với công dân của mình"
+        ],
+        "answer": [
+            0
+        ]
+    },
+    {
+        "question": "Quan hệ pháp luật phát sinh, thay đổi hoặc chấm dứt khi có điều kiện gì?",
+        "choices": [
+            "Chỉ cần có quy phạm pháp luật điều chỉnh",
+            "Chỉ cần có sự kiện pháp lý",
+            "Chỉ cần có chủ thể tham gia quan hệ và chủ thể đó có đủ năng lực chủ thể",
+            "Phải có đủ cả ba điều kiện trên"
+        ],
+        "answer": [
+            3
+        ]
+    },
+    {
+        "question": "T nói Bộ Chính trị là một Bộ thuộc Chính phủ. H nói trong cơ cấu của Chính phủ Việt Nam không có Bộ Chính trị. Vậy đáp án chính xác nhất là:",
+        "choices": [
+            "Trong cơ cấu của Chính phủ Việt Nam không có Bộ chính trị",
+            "Trong cơ cấu của Chính phủ Việt Nam có Bộ chính trị đứng đầu là thủ tướng Chính phủ",
+            "Trong cơ cấu của chính phủ Việt Nam không có Bộ chính trị nhưng có Ban thư kí",
+            "Trong cơ cấu của Chính phủ Việt Nam có Bộ chính trị"
+        ],
+        "answer": [
+            0
+        ]
+    },
+    {
+        "question": "Nhà nước nào dưới đây KHÔNG theo chính thể quân chủ lập hiến:",
+        "choices": [
+            "Thái Lan",
+            "Thụy Điển",
+            "Hà Lan",
+            "Ấn Độ"
+        ],
+        "answer": [
+            3
+        ]
+    },
+    {
+        "question": "\"Quy phạm cấm đoán\" là quy phạm như thế nào?",
+        "choices": [
+            "Là loại quy phạm đặt ra một việc cụ thể và cho phép các chủ thể khi tham gia vào quan hệ pháp luật có quyền lựa chọn làm hoặc không làm việc đó",
+            "Là loại quy phạm đặt ra một việc cụ thể và cấm các chủ thể khi tham gia vào quan hệ pháp luật làm việc đó",
+            "Cả ba nhận định trên đều sai",
+            "Là loại quy phạm đặt ra một việc cụ thể và buộc các chủ thể khi tham gia vào quan hệ pháp luật phải làm việc đó"
+        ],
+        "answer": [
+            1
+        ]
+    },
+    {
+        "question": "Đâu là đáp án SAI?",
+        "choices": [
+            "Luật là văn bản quy phạm pháp luật do lưỡng viện của Quốc hội Việt Nam ban hành",
+            "Nghị định 100/2021/ND-CP của Chính phủ là văn bản quy phạm pháp luật",
+            "Quyết định của Thủ tướng về việc thành lập Trường Đại học Luật, ĐHQGHN không phải là văn bản quy phạm pháp luật",
+            "Pháp lệnh do Ủy ban thường vụ Quốc hội ban hành"
+        ],
+        "answer": [
+            0
+        ]
+    },
+    {
+        "question": "Năng lực pháp luật của chủ thể trong quan hệ pháp luật phụ thuộc vào yếu tố nào sau đây?",
+        "choices": [
+            "Phụ thuộc vào quan điểm đạo đức",
+            "Phụ thuộc vào pháp luật của từng quốc gia",
+            "Phụ thuộc vào phong tục tập quán",
+            "Phụ thuộc vào trình độ văn hóa"
+        ],
+        "answer": [
+            1
+        ]
+    },
+    {
+        "question": "Trong các trường hợp dưới đây, trường hợp nào pháp luật thực hiện chức năng bảo vệ?",
+        "choices": [
+            "Anh A và anh B đã thực hiện giao dịch chuyển quyền sử dụng đất thành công tại Văn phòng công chức Tân Tây Đô",
+            "Anh A quyết định khi lái xe sẽ không sử dụng rượu bia bởi từ khi có Nghị định 100 anh thấy mức phạt cho hành vi này thực sự rất nghiêm khắc",
+            "Anh A bị anh B bôi nhọ đanh dự trên Facebook, anh A đã lập vi bằng và sau đó kiện ra Toà án, Tóa án phán quyết buộc anh B phải thực hiện xin lỗi công khai, cải chính và bồi thường thiệt hại",
+            "Anh A và Chị B trên cơ sở quy định pháp luật hiện hành đã thực hiện thuận tình ly hôn."
+        ],
+        "answer": [
+            2
+        ]
+    },
+    {
+        "question": "Trong các câu sau, câu nào là Đúng:",
+        "choices": [
+            "Anh A và Chị B trên cơ sở quy định pháp luật hiện hành đã thực hiện thuận tình ly hôn.",
+            "Nhà nước có trách nhiệm bảo vệ công dân của mình ở nước ngoài nhưng chỉ trên cơ sở pháp các hiệp định tương trợ tư pháp, pháp luật đã được ký kết",
+            "Nhà nước có trách nhiệm bảo vệ công dân của mình ở trong và bên ngoài phạm vi lãnh thổ quốc gia",
+            "Nhà nước không có trách nhiệm bảo vệ công dân của mình ở nước ngoài"
+        ],
+        "answer": [
+            2
+        ]
+    },
+    {
+        "question": "Trong các nhận định dưới đây, nhận định nào là SAI? Những đặc trưng cơ bản của nhà nước pháp quyền là",
+        "choices": [
+            "Sự tôn trọng và bảo vệ quyền tự do của con người",
+            "Sự hiện diện của hệ thống pháp luạt tốt và pháp luật giữ vai trò tối thượng trong xã hội",
+            "Sự phân quyền trong tổ chức quyền lực nhà nước và sự giới hạn, kiểm soát quyền lực nhà nước bởi pháp luật",
+            "Tất cả mọi quan hệ xã hội được điều chỉnh bằng pháp luật"
+        ],
+        "answer": [
+            3
+        ]
+    },
+    {
+        "question": "Đâu là đáp án SAI trong số các đáp án dưới đây?",
+        "choices": [
+            "Học thuyết pháp lý là loại nguồn pháp luật của không ít quốc gia",
+            "Học thuyết pháp lý là loại nguồn của pháp luật Việt Nam hiện nay",
+            null,
+            "Học thuyết pháp lý có vai trò quan trọng trong đời sống pháp luật của rất nhiều quốc gia",
+            "Tập quán pháp luật là loại nguồn của pháp luật Việt Nam hiện nay"
+        ],
+        "answer": [
+            1
+        ]
+    },
+    {
+        "question": "Năng lực chủ thể của chủ thể trong quan hệ pháp luật được hiểu như thế nào?",
+        "choices": [
+            "Chỉ cần có năng lực pháp luật là có năng lực chủ thể",
+            "Chỉ cần có năng lực hành vi là có đủ năng lực chủ thể",
+            "Chỉ cần có năng lực pháp luật hoặc có năng lực hành vi là có đủ năng lực chủ thể",
+            "Phải có đủ cả năng lực pháp luật và năng lực hành vi mới có đủ năng lực chủ thể"
+        ],
+        "answer": [
+            3
+        ]
+    },
+    {
+        "question": "H nói Nhà nước Anh hiện nay là một nhà nước quân chủ, ngôi vua được hình thành bằng phương pháp cha truyền con nối. Đây không phải là nhà nước quân chủ tuyệt đối mà chỉ  là nhà nước quân chủ tương đối. Vậy đáp án đúng là:",
+        "choices": [
+            "Nhà nước Anh là nhà nước quân chủ tương đối",
+            "Nhà nước Anh là nhà nước quân chủ tuyệt đối",
+            "Nhà nước Anh là nhà nước quân chủ nhị nguyên",
+            "Nhà nước Anh là nước quân chủ vừa tuyệt đối vừa tương đối"
+        ],
+        "answer": [
+            0
+        ]
+    },
+    {
+        "question": "Trong các đáp án dưới đây đáp án nào ĐÚNG",
+        "choices": [
+            "Quy định pháp luật về thuế của nhà nước không có tính bắt buộc",
+            "Các tổ chức nghề nghiệp có quyền quy định và thu các loại thuế dưới hình thức bắt buộc",
+            "Chỉ có nhà nước mới có đặc trưng về lãnh thổ và dân cư, quản lý dân cư theo các đơn vị hành chính lãnh thổ",
+            "Các tổ chức chính trị-xã hội khác có quyền quy định và thu các loại thuế dưới hình thức bắt buộc"
+        ],
+        "answer": [
+            2
+        ]
+    },
+    {
+        "question": "Trong các đáp án dưới dây, đáp án nào ĐÚNG về các đặc trưng chủ yếu của nhà nước:",
+        "choices": [
+            "Nhà nước không có đặc trưng riêng so với các tổ chức xã hội",
+            "Nhà nước có các đặc trưng chủ yếu là: quyền lực chính trị công cộng đặc biệt, dân cư và lãnh thổ, chủ quyền quốc gia, pháp luật, quy định và thu thuế",
+            "Nhà nước chỉ có một đặc trưng riêng đó là có quyền ban hành pháp luật",
+            "Nhà nước chỉ có hai đặc trưng chủ yếu là: dân cư và lãnh thổ"
+        ],
+        "answer": [
+            1
+        ]
+    },
+    {
+        "question": "Ngày nay, pháp luật được coi là hệ thống các quy tắc xử sự:",
+        "choices": [
+            "Do các tổ chức quốc tế làm ra và bắt buộc mọi quốc gia phải tuân theo",
+            "Do các tổ chức xã hội kiến tạo ra và buộc các thành viên của tổ chức của mình phải tuân theo",
+            "Do nhà nước đặt ra, thừa nhận hoặc/và bảo đảm thực hiện bằng quyền lực nhà nước",
+            "Do cộng đồng đảm bảo dân cư tạo ra và mọi người tự nguyện tuân theo"
+        ],
+        "answer": [
+            2
+        ]
+    },
+    {
+        "question": "Trong những trường hợp dưới đây, trường hợp nào pháp luật thể hiện chức năng đánh giá, định chuẩn?",
+        "choices": [
+            ". Anh A và anh B là bạn thân, hai người cam kết làm thông gia bởi anh A có con trai và anh B có con gái. Khi hai con đủ 16 tuổi, anh A và anh B yêu cầu hai con cưới nhau. Hai con của hai anh không đồng ý và nhờ đến pháp luật. Theo đó, pháp hoạt cấm việc cưỡng ép kết hôn và đồng thời nam nữ muốn ở kết hôn cũng phải đủ tuổi theo quy định. Như vậy, hành vi của anh A và anh B là sai theo quy định của pháp luật dù truyền thống ở nơi họ sống là như thế từ bao đời nay",
+            "Thực hiện pháp luật về đấu giá, anh A đã tham qua đấu giá và đấu giá thành công lô đất tại Hoài Đức trị giá 2 tỷ VNĐ",
+            "Anh A bị cưỡng chế thi hành án ngôi ngôi nhà giá 5 tỷ VNĐ",
+            "Không có trường hợp nào trong số các trường hợp nêu trên pháp luật thực hiện chức năng đánh giá, định chuẩn"
+        ],
+        "answer": [
+            0
+        ]
+    },
+    {
+        "question": "Đâu KHÔNG phải chức năng của pháp luật hiện đại",
+        "choices": [
+            "Pháp luật có chức năng điều chỉnh",
+            "Pháp luật có chức năng định chuẩn, định giá trị",
+            "Pháp luật có chức năng bảo vệ",
+            "Pháp luật là công cụ để giai cấp cai trị trấn áp giai cấp bị trị"
+        ],
+        "answer": [
+            3
+        ]
+    },
+    {
+        "question": "Chức năng bảo vệ của pháp luật có nghĩa là",
+        "choices": [
+            "Là khi anh A muốn chứng minh với cảnh sát giao thông rằng hành vi vượt đèn đỏ của anh ấy là hợp pháp",
+            "Pháp luật được làm ra để bảo vệ các giá trị, các quan hệ xã hội mà nhà làm luật muốn bảo vệ",
+            "Là khi anh A thấy rằng đó là việc đúng cần làm theo",
+            "Cả 3 đáp án trên đều không phù hợp"
+        ],
+        "answer": [
+            1
+        ]
+    },
+    {
+        "question": "Trong các nhận định dưới đây, nhận định nào là đúng",
+        "choices": [
+            "Chỉ có nhà nước mới có quyền quy định và thu các loại thuế dưới hình thức bắt buộc",
+            "Quy định pháp luật về thuế của nhà nước không có tính bắt buộc thực hiện",
+            "Các tổ chức nghề nghiệp có quyền quy định và thu các loại thuế dưới hình thức bắt buộc",
+            "Các tổ chức chính trị - xã hội khác có quyền quy định và thu các loại thuế dưới hình thức bắt buộc"
+        ],
+        "answer": [
+            0
+        ]
+    },
+    {
+        "question": "Thứ tự nào đúng trong các câu dưới đây",
+        "choices": [
+            "Hiến pháp, điều ước quốc tế",
+            "Điều ước quốc tế, Hiến pháp, các văn bản luật khác của quốc gia (nội luật).",
+            "Không quan trọng hình thức văn bản, thứ tự áp dụng phụ thuộc vào nội dung văn bản.",
+            "Hiến pháp, điều ước quốc tế, các văn bản luật khác của quốc gia (nội luật)."
+        ],
+        "answer": [
+            3
+        ]
+    },
+    {
+        "question": "Trong các nhận định dưới đây, nhận định nào là Sai? Tổ chức quyền lực trong nhà nước pháp quyền là:",
+        "choices": [
+            "Quyền lực nhà nước được phân chia thành lập pháp, hành pháp, tư pháp và các nhánh quyền lực đó độc lập nhưng có sự phối hợp, hỗ trợ lẫn nhau.",
+            "Các nhánh quyền lực có sự kiểm soát và đối trọng lẫn nhau",
+            "Quyền lực nhà nước được phân chia thành lập pháp, hành pháp, tư pháp và các nhánh quyền  lực đó độc lập với nhau về phạm vi thẩm quyền, chức năng nhiệm vụ và phương thức hoạt động;",
+            "Quyền lực nhà nước được phân chia thành lập pháp, hành pháp, tư pháp và các nhánh quyền lực đó hoàn toàn độc lập, không có mối quan hệ với nhau"
+        ],
+        "answer": [
+            3
+        ]
+    },
+    {
+        "question": "Trong các nhận định dưới đây, nhận định nào là Sai:",
+        "choices": [
+            "Cải cách thủ tục hành chính mang lại lợi ích cho các doanh nghiệp thuộc mọi loại hình thức sở hữu",
+            "Cải cách thủ tục hành chính mang lại lợi ích kinh tế và lợi ích tinh thần cho các cá nhân, tổ chức",
+            "Cải cách thủ tục hành chính mang lại lợi ích tinh thần cho các cá nhân, tổ chức",
+            "Cải cách thủ tục hành chính chỉ mang lại lợi ích cho các cá nhân, tổ chức chứ không mang lại lợi ích cho nhà nước, xã hội"
+        ],
+        "answer": [
+            3
+        ]
+    },
+    {
+        "question": "Trong các nhận định dưới đây, nhận định nào là ĐÚNG?",
+        "choices": [
+            "A. Thuật ngữ Nhà nước pháp quyền chỉ được ghi nhận trong các văn kiện của Đảng Cộng sản Việt Nam",
+            "B. Thuật ngữ Nhà nước pháp quyền được ghi nhận trọng Hiến pháp năm 2013 của nước Cộng hoà xã hội chủ nghĩa Việt Nam và trong các văn kiện của Đảng Cộng sản Việt Nam",
+            "C. Thuật ngữ Nhà nước pháp quyền được ghi nhận trong tất cả các bản Hiến Pháp của nước Việt Nam từ 1945 trở lại đây",
+            "D. Thuật ngữ Nhà nước pháp quyền chưa được ghi nhận trong Hiến pháp năm 2013 của nước Cộng hoà xã hội chủ nghĩa Việt Nam"
+        ],
+        "answer": [
+            1
+        ]
+    },
+    {
+        "question": "Quy phạm \"bắt buộc\" là quy phạm như thế nào",
+        "choices": [
+            "Là loại quy phạm đặt ra một việc cụ thể và buộc các chủ thể khi tham gia vào quan hệ pháp luật làm việc đó",
+            "B. Là loại quy phạm đặt ra một việc cụ thể và cho phép các chủ thể khi tham gia vào quan hệ pháp luật có quyền lựa chọn làm hoặc không làm việc đó",
+            "C. Là loại quy phạm đặt ra một việc cụ thể và cấm các chủ thể khi tham gia vào quan hệ pháp luật làm việc đó",
+            "D. Cả ba nhận định trên đều sai"
+        ],
+        "answer": [
+            0
+        ]
+    },
+    {
+        "question": "Chức năng bảo vệ của pháp luật có nghĩa là?",
+        "choices": [
+            "A. Pháp luật đưa ra các chế tài xử lý những hành vi vi phạm",
+            "B. Pháp luật đưa ra những những chuẩn mực để người dân, cộng đồng doanh nghiệp trên cơ sở đó phân biệt được đúng sai, phải trái",
+            "C. Pháp luật điều chỉnh hành vi của cá nhân, tổ chức trong xã hội theo những chuẩn mực mà pháp luật quy định trước",
+            "D. A, B, C đều sai"
+        ],
+        "answer": [
+            2
+        ]
+    },
+    {
+        "question": "Trong nhận định dưới đây, nhận định nào là SAI? Nhà nước pháp quyền có đặc trưng là?",
+        "choices": [
+            "A. Thừa nhận tính tối cao của pháp luật - ĐÚNG",
+            "B. Tôn trọng pháp luật quốc tế - ĐÚNG",
+            "C. Sự phân quyền trong tổ chức quyền lực nhà nước và sự giới hạn, kiểm soát quyền lực nhà nước bởi pháp luật - ĐÚNG",
+            "D. Pháp luật được ban hành bởi các tổ chức xã hội",
+            "E. Tôn trọng, bảo vệ quyền và tự do của con người - ĐÚNG"
+        ],
+        "answer": [
+            3
+        ]
+    },
+    {
+        "question": "Trong các nhân định dưới đây, nhận định nào là Sai? Phương hướng xây dựng và hoàn thiện nhà nước pháp quyền XHCN Việt Nam là:",
+        "choices": [
+            "Xây dựng nền tư pháp chuyên nghiệp, hiện đại, công bâng, nghiêm minh, liêm chính, bảo vệ công lý, bảo vệ quyền con người, quyền công dân.v.v.",
+            "Đối mới tố chức, nâng cao chất lượng hoạt động của Quốc hội",
+            "Xây dựng nền hành chính nhà nước phục vụ Nhân dân, dân chủ, pháp quyền, chuyên nghiệp, hiện đại, trong sạch, vững mạnh, công khai, minh bạch;",
+            "Đổi mới hoạt động tư pháp theo hướng trao cho Toà án nhân dân tối cao thấm quyền xét xử các vụ án cụ thể;"
+        ],
+        "answer": [
+            3
+        ]
+    },
+    {
+        "question": "Quyền lực nhà nước thuộc về ai theo Hiến pháp 2013?",
+        "choices": [
+            "A. Quốc hội",
+            "B. Nhân dân",
+            "C. Chính phủ",
+            "D. Đảng Cộng sản Việt Nam"
+        ],
+        "answer": [
+            1
+        ]
+    },
+    {
+        "question": "Trong các đáp án dưới đây, đáp án nào ĐÚNG:",
+        "choices": [
+            "Pháp luật được đảm bảo thực hiện bằng các biện pháp cưỡng chế của nhà nước",
+            "Pháp luật được đảm bảo thực hiện bằng các biện pháp cưỡng chế của các nhóm xã hội tự nguyện thành lập",
+            "Pháp luật được đảm bảo thực hiện bằng các biện pháp cưỡng chế của các tổ chức chính trị - xã hội khác",
+            "Pháp luật được đảm bảo thực hiện bằng các biện pháp cưỡng chế của các cộng đồng dân cư"
+        ],
+        "answer": [
+            0
+        ]
+    },
+    {
+        "question": "Trong những đáp án dưới đây, đáp án nào ĐÚNG?",
+        "choices": [
+            "Lẽ công bằng không phải là nguồn luật ở Việt Nam",
+            "Nghị quyết của Chủ tịch Nước là một loại nguồn luật",
+            "Nghị định do Chính phủ ban hành",
+            "Quyết định của Chánh án Tòa án nhân dân tối cao là một loại văn bản quy phạm pháp luật"
+        ],
+        "answer": [
+            2
+        ]
+    },
+    {
+        "question": "Năng lực pháp luật của chủ thể trong quan hệ pháp luật được hiểu như nào?",
+        "choices": [
+            "Cả ba nhận định trên đều sai",
+            "Là khả năng của chủ thể bằng chính hành vi của mình để được tham gia vào quan hệ pháp luật đó",
+            "Là khả năng của chủ thể được pháp luật quy định và bằng chính hành vi của mình để tham gia vào quan hệ pháp luật đó",
+            "Là khả năng của chủ thể được pháp luật quy định để được tham gia vào quan hệ pháp luật đó"
+        ],
+        "answer": [
+            2
+        ]
     }
 ]
